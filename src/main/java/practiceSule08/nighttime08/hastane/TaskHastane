@@ -1,0 +1,38 @@
+
+
+1) Runner Classinda bir  Hastane Objesi olusturunuz
+2) Siradaki tum verileri VeriBankasi sinifinizda
+   olusturunuz
+    String[] doctorIsimleri = { " ", " ", " ", " " };
+    String[] doctorSoyIsimleri= { " ", " ", " ", " "};
+    String[] unvanlar = { " ", " ", " ", " " };
+    String[] hastaIsimleri = { " ", " ", " ", " "};
+    String[] hastaSoyIsimleri= { " ", " ", " ", " "};
+    String[] durumlar= { " ", " ", " ", " "};
+    int [] hastaIDleri = {111,222,333,444};
+
+   3) Durum sinifinizda asagidaki instance variable
+      lari olusturunuz ve onlara Getter ve Setterlar
+      olusturunuz
+      aciliyetDurumu;
+      acilMi;
+
+      4) Hasta classimizda asagidaki variablelari
+         olusturunuz ve onlara getter ve setter
+         lari olusturunuz
+          private String isim;
+          private String soyIsim;
+          private int hastaID;
+          private Durum hastaDurumu;
+      5)Asagidaki variablelari getter ve setter
+           lari ile birlikte olusturunuz Doktor
+           classinda
+            private String isim;
+            private String soyIsim;
+            private String unvan;
+      6) instance variablelari
+           olusturabilirsiniz ve onlar icin getter ve
+           setter lar olusturunuz
+           Hastane classiniz sizin VeriBankasi classinizi
+           extend etmelidir burada Inheritance
+           kullaniniz

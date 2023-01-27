@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4af5945d-de09-4c8e-8c8d-1bd7f601bb0b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/advance/Hacim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/advance/Q01_Ascii_Karakterler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/advance/Q02_Palindrom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/advance/Q03_RastgeleSifreOlusturma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/advance/Q04_MethodOverloading_Hacim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/advance/Q06_MultiDimArray_Toplam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/advance/q05_Arrays_istenenleriSilme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/javapractice/nighttime07/OnlineAlisveris.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/javapractice/nighttime07/Takvim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice08/Daire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice08/Kutuphane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice08/Matematik.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice08/Q01_NestedLoop_AtbashCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice08/Q02_Arrays_SesliHarfleriKapa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice08/Q03_ObjeOlusturma_Kutuphane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice08/Q04_Bakkal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice08/Q05_Inheritance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice09/Arrays_TekrarlarıSil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice09/Q03_ForLoop_RakamlarToplamı.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice09/Q04_Manav.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice09/overriding/Banka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice09/overriding/Emekli.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice09/overriding/Isci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice09/overriding/Memur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice09/overriding/Q02_Kredi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice09/overriding/Q05_ZarSaniye.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice10/Q02_HarfKullanimSayilari.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice10/Q03_Exception_NotOrtalama.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice10/okul/Ogrenci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice10/okul/Okul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice10/okul/OkulMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice10/q01_Recursive_100den1e.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice11/Helloword" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice11/Pangram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice11/TextOkumaYazma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice11/abstraction_alan_hesaplama/AbstractionRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice11/abstraction_alan_hesaplama/Alan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice11/abstraction_alan_hesaplama/Dikdortgen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice11/abstraction_alan_hesaplama/Ucgen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice11/interface_maas_hesaplama/InterfaceRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice11/interface_maas_hesaplama/MaasArttir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice11/interface_maas_hesaplama/MaasHesapla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice11/interface_maas_hesaplama/Vergi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice11/yeniDosya" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice7/Market.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice7/Matrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice7/Q01_Arrays_OrtaElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice7/Q02_TasKagitMakas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice7/Q03_Static_Sirket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice7/Q04_Constructor_Market.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice7/Sirket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aracKiralama/Araba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aracKiralama/AracAlmaVeTeslimEtme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aracKiralama/Dummy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aracKiralama/MusteriveAracBilgileri.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aracKiralama/Offf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aracKiralama/RunnerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aracKiralama/gerekenler" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day01variables/Variables01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day02datatypesmethodcreation/MethodCreation01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day02datatypesmethodcreation/Variables01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day02datatypesmethodcreation/Variables02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day03scanner/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day03scanner/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day03scanner/Scanner01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day03scanner/Scanner02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day03scanner/Scanner03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day03scanner/Scanner04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day03scanner/Scanner05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day03scanner/Scanner06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day03scanner/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day04asciiwrapperclassoperatorsmemoryusage/AsciiValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day04asciiwrapperclassoperatorsmemoryusage/Operators01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day04asciiwrapperclassoperatorsmemoryusage/WrapperClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day05typecastingstringmanipulations/StringManipulations01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day05typecastingstringmanipulations/StringManipulations02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day05typecastingstringmanipulations/StringManipulations03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day05typecastingstringmanipulations/SwapValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day05typecastingstringmanipulations/TypeCasting01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day06stringmanipulationsifstatement/StringManipulations01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day07ifstatements/IfStatement01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day07ifstatements/IfStatement02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day07ifstatements/IfStatement03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day07ifstatements/IfStatement04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day07ifstatements/IfStatement05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day07ifstatements/IfStatement06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day08nestedifternary/NestedIf01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day08nestedifternary/NestedIf02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day08nestedifternary/NestedIf03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day08nestedifternary/NestedIf04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day08nestedifternary/Ternary01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day09incrementdecrementternaryswitch/IncrementDecrement01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day09incrementdecrementternaryswitch/NestedTernary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day09incrementdecrementternaryswitch/Switch01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day09incrementdecrementternaryswitch/Ternary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day10switchloops/Loops01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day10switchloops/Loops02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day10switchloops/Switch01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day10switchloops/Switch02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day10switchloops/Switch03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day11forloop/ForLoop01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day11forloop/ForLoop02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day11forloop/ForLoop03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day11forloop/ForLoop04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day11forloop/ForLoop05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day15arrays/Arrays01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day15arrays/Arrays02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day15arrays/Arrays03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day15arrays/Arrays04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day15arrays/Arrays05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day16multidimansionalarray/Md01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day16multidimansionalarray/Md02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day16multidimansionalarray/Md03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day16multidimansionalarray/Md04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day16multidimansionalarray/Md05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day16multidimansionalarray/Md06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day16multidimansionalarray/Star.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day17arraylist/ArrayList01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day17arraylist/ArrayList02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day17arraylist/ArrayList03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day18List/List01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day18List/Lists02_Interview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day18List/Lists03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day18List/Lists04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day19listsvarargs/List03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day19listsvarargs/Lists01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day19listsvarargs/Lists02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day19listsvarargs/Varargs01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day20passbyvalueoverloading/C01_PassByValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day20passbyvalueoverloading/C02_PassByValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day20passbyvalueoverloading/C03_PassByValueArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day20passbyvalueoverloading/C04_PassByValueList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day20passbyvalueoverloading/C05_PassByValueList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day20passbyvalueoverloading/C06_PasByValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day20passbyvalueoverloading/C07_OverLoading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day21overloadingstatic/C01_Overloading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day21overloadingstatic/C02_Static.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day21overloadingstatic/C03_StaticDepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day21overloadingstatic/C04_Static.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day22staticblocksconstractors/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day22staticblocksconstractors/CarRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day22staticblocksconstractors/DateTime01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day22staticblocksconstractors/StaticBlocks01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day22staticblocksconstractors/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day22staticblocksconstractors/StudentRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day23datetimestringbuilder/DateTime01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day23datetimestringbuilder/Maymun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day23datetimestringbuilder/Snake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day23datetimestringbuilder/StringBuffer01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day23datetimestringbuilder/StringBuilder01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day24accessmodifiersinheritance/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day24accessmodifiersinheritance/AnimalRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day24accessmodifiersinheritance/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day24accessmodifiersinheritance/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day24accessmodifiersinheritance/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day24accessmodifiersinheritance/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day24accessmodifiersinheritance/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day24accessmodifiersinheritance/FishRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day24accessmodifiersinheritance/Honda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day24accessmodifiersinheritance/HondaAccord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day24accessmodifiersinheritance/Ogrenci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day24accessmodifiersinheritance/OgrenciRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day24accessmodifiersinheritance/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day24accessmodifiersinheritance/StudentRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day24accessmodifiersinheritance/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day24accessmodifiersinheritance/VehicleRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day25inhetirance/A01_Math.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day25inhetirance/A02_Science.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day25inhetirance/A03_Art.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day25inhetirance/A04_Lessons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day25inhetirance/A05_LessonsRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day25inhetirance/C01_Memur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day25inhetirance/C02_Isci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day25inhetirance/C03_Muhasebe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day25inhetirance/C04_Personel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day25inhetirance/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day25inhetirance/Honda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day25inhetirance/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day25inhetirance/VehicleRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day26overriding/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day26overriding/AnimalRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day26overriding/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day26overriding/Mammals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day27encapsulationabstraction/Courses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day27encapsulationabstraction/EighthGraders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day27encapsulationabstraction/Rooms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day27encapsulationabstraction/SeventhGraders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day27encapsulationabstraction/SixthGraders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day27encapsulationabstraction/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day27encapsulationabstraction/StudentRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day28exceptions/C01_Exceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day28exceptions/C02_Exceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day28exceptions/C03_Exception.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day28exceptions/C04_Exceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day28exceptions/C05_Exceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day28exceptions/C06_Exceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day28exceptions/C07_Exception_Ikili.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day28exceptions/TaskException" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day29exceptions/C01_Exceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day29exceptions/C02_Exceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day29exceptions/C03_Exception.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day29exceptions/C04_Exceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day29exceptions/C05_Exceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day29exceptions/Exceptions01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day29exceptions/Exceptions02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day29exceptions/Exceptions03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day29exceptions/File01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day29exceptions/TaskExceptions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day30Exceptionsinterface/AC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day30Exceptionsinterface/Accord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day30Exceptionsinterface/Civic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day30Exceptionsinterface/CustomException01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day30Exceptionsinterface/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day30Exceptionsinterface/Exceptions01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day30Exceptionsinterface/Exceptions02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day30Exceptionsinterface/HondaRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day30Exceptionsinterface/InvalidNumberException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day30Exceptionsinterface/InvalidStudentGradeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day30Exceptionsinterface/Security.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day31collections/HashSet01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day31collections/LinkedList01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day32collections/Deque01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day32collections/LinkedHashSet01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day32collections/Queue01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day32collections/TreeSet01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mentoring/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mentoring/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mentoring/D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mentoring/Deneme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mentoring/Example01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mentoring/Example02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mentoring/IcecekOtomati.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mentoring/Oca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mentoring/StringBuilderStringBuffer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mentoring/YiyecekOtomati.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mentoring/bakkalOtomati.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mentoring/proje1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/Dummy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/login/LoginMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/login/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/login/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/BagetEkmek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/Browser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/C02_IfStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/Chrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/DT_09/AileOdasi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/DT_09/KralDairesi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/DT_09/Otel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/DT_09/TekKisilik.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/Dancer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/DiyetEkmek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/Edge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/Kumanda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/KumandaRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/KumandaTask" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/MisirEkmek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/Persons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/Programmer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/Safari.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/Singer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/StringBuilderKiyas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/StringManipulations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/TSE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Doktor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Durum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Hasta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Hastane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/TaskHastane" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/VeriBankasi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/paractice07/C01_Exception.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/paractice07/C02_Exceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/paractice07/C03_Ternary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/paractice07/Exceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/paractice07/MiladiTakvim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/paractice07/MyExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/paractice07/RunnerExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/ArrayElemanlarinOrtalamasi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/ArrayParametreliToplamDöndürenMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/ArraydeMinVeMaxYazma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/ArtikYil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/BinaryNumbersToplami.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/Cevap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/CumledeHarfKacTaneVar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/IkiArrayiToplama.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/IkiBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/KelimeOrtasinaKelimeKoyma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/KelimeyiHarflerineAyirma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/List_EncokOlanHarfiYazdirmak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/OBEB_OKEK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/ScrableGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/SifreyiYildizliYazdirma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/SonIkiKelimeyiTekrarliYazdir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/StringBuilderPalindrom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/StringtekiRakamlariToplama.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/Switch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/TekrarEdenHarfleriYazdirma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/Ternary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/Varargs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/VucutKitleEndexi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/buyukInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/repo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ssg01/telefon/BirdSeed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ssg01/telefon/C01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ssg01/telefon/DateTimeLokal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ssg01/telefon/I01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ssg01/telefon/I02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ssg01/telefon/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ssg01/telefon/Telefon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ssg01/telefon/dummy.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Js9cIsoEK2padlAyPgaKpQg6UM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/PROJECTS&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="mentoring" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="day25inhetirance" />
+      <recent name="day24accessmodifiersinheritance" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Runner">
+    <configuration name="BirdSeed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ssg01.telefon.BirdSeed" />
+      <module name="BATCH129" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ssg01.telefon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dummy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aracKiralama.Dummy" />
+      <module name="BATCH129" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aracKiralama.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MusteriveAracBilgileri" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aracKiralama.MusteriveAracBilgileri" />
+      <module name="BATCH129" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aracKiralama.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day03scanner.Runner" />
+      <module name="BATCH129" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day03scanner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Yardim" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aracKiralama.Yardim" />
+      <module name="BATCH129" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aracKiralama.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Runner" />
+        <item itemvalue="Application.Dummy" />
+        <item itemvalue="Application.BirdSeed" />
+        <item itemvalue="Application.Yardim" />
+        <item itemvalue="Application.MusteriveAracBilgileri" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4af5945d-de09-4c8e-8c8d-1bd7f601bb0b" name="Changes" comment="" />
+      <created>1672856007172</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672856007172</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/day24accessmodifiersinheritance/Ogrenci.java</url>
+          <line>6</line>
+          <properties field="stdId" class="day24accessmodifiersinheritance.Ogrenci" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/day29exceptions/C02_Exceptions.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
