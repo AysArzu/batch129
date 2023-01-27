@@ -18,7 +18,6 @@ public class ForLoop02 {
                 System.out.print(ch);
             }
         }
-
         System.out.println();
 
         //3.Yol: Madagaskar
