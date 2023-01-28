@@ -12,7 +12,7 @@ public class AracAlmaVeTeslimEtme {
     private LocalTime teslimSaati;
     public void aracAlmaTarihi(){
         //burayi olustur
-        System.out.println("Hangi tarihte arabayı teslim alacaginizi girini\n" +
+        System.out.println("Hangi tarihte arabayı teslim alacaginizi giriniz\n" +
                 "tarihi gg/aa/yyyy seklinde giriniz");
         //   int alinacakgun=scan.nextInt();
     }

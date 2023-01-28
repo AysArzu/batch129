@@ -35,30 +35,25 @@ public class MusteriveAracBilgileri {
         System.out.println("Lutfen araci alacaginiz sehri secerek giris yapiniz\n" +
                 "Ankara, Istanbul, Adana, Izmir, Ardahan");
         String teslimAlinacakSehir = scan.nextLine().trim().toLowerCase();
+
         String[] sehirler = {"ankara", "istanbul", "adana", "izmir", "ardahan"};
 
-        System.out.println(Arrays.toString(sehirler));
-        for (String w : sehirler) {
-            if (!w.equalsIgnoreCase(teslimAlinacakSehir)) {
-                System.out.println("Lutfen listedeki sehirlerden birini seciniz");
-                aractalep();
-            } else {
-                break;
-            }
-        }
         System.out.println("Lutfen araci teslim edeceginiz sehri secerek giris yapiniz\n" +
                 "Ankara, Istanbul, Adana, Izmir, Ardahan");
-        String teslimEdilecekSehir = scan.nextLine().trim();
-        for (String w : sehirler) {
-            if (!w.equalsIgnoreCase(teslimEdilecekSehir)) {
-                System.out.println("Lutfen listedeki sehirlerden birini seciniz");
-                aractalep();
-            } else {
-                break;
-            }
+         teslimAlinacakSehir = scan.nextLine().trim().toLowerCase();
+        boolean gecerliSehirMi = Arrays.toString(sehirler).toLowerCase().contains(teslimAlinacakSehir);
+        if (!gecerliSehirMi) {
+            System.out.println("Lutfen listedeki sehirlerden birini seciniz!..");
+            aractalep();
         }
+        System.out.println("Teslim Edilecek Şehri Seçiniz: ");
+        String teslimEdilecekSehir = scan.nextLine().trim().toLowerCase();
+        boolean dogruSehirMi = Arrays.toString(sehirler).toLowerCase().contains(teslimEdilecekSehir);
+        if (!dogruSehirMi) {
+            System.out.println("Lutfen listedeki sehirlerden birini seciniz");
+            aractalep();
     }
-    public void aracBilgisi() {
+   // public void aracBilgisi() {
         List<Araba> arabaList = new ArrayList<>();
         List<Araba> rezerveList = new ArrayList<>();
         Araba araba1 = new Araba("Toyota", "Corolla", "Benzin", "Duzvites", 500);

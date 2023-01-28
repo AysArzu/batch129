@@ -12,16 +12,16 @@ public class Md01 {
         a[1][1] = 45;
         a[2][0] = 123;
         a[2][1] = 0;
-        System.out.println(Arrays.deepToString(a));//
+
         //Note: Array'lere non-primitive data konulamaz.
         //Note: Array'lere primitive data veya reference konulur.
-        // Ama siz bir array'i yazdırmak istediğinizde Javaadresler yarımı ile non-primitive data'ya ulaşır.
+        // Ama siz bir array'i yazdırmak istediğinizde Java adresler yardımı ile non-primitive data'ya ulaşır.
         //ve o non-primitive data'yı sanki array'in içindeymiş gibi gösterir.
 
-        //Multidimensional Array'lerdeki belli elemanlaranasıl ılaşılır?
+        //Multidimensional Array'lerdeki belli elemanlara nasıl ılaşılır?
         System.out.println(Arrays.toString(a[2]));// [123, 0]
         System.out.println(a[1][0]);//81
-
+        System.out.println(Arrays.deepToString(a));//
 
 
     }

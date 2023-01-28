@@ -5,7 +5,7 @@ public class Exceptions02 {
 /*
     Isim ne kadar genelse o kadar paranttir
     Eger specific bir cozum uretmek istiyorsak ayri ayri exception firlatmak gerek yoksa parenti yazip geceriz
-    /*
+
         Java'da "Throwable" diye bir Class var.
         Object Class, Throwable'in parent'idir.
 

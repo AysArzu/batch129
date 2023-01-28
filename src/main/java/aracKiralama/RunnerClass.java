@@ -7,6 +7,6 @@ public class RunnerClass {
         Scanner scanner=new Scanner(System.in);
         MusteriveAracBilgileri user=new MusteriveAracBilgileri();
         user.aractalep();
-        user.aracBilgisi();
+       // user.aracBilgisi();
     }
 }

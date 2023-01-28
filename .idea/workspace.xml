@@ -4,7 +4,60 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4af5945d-de09-4c8e-8c8d-1bd7f601bb0b" name="Changes" comment="second" />
+    <list default="true" id="4af5945d-de09-4c8e-8c8d-1bd7f601bb0b" name="Changes" comment="1-27">
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice01/Q01_Variable_Fahrenheit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice01/Q02_Variable_Hipotenus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice01/Q03_Ternary_NotSistemi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice01/Q04_Regex_AdSoyad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice01/Q05_ForEach_EuroDolar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice01/Q06_WhileLoop_IlkVeSonRakam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice12/Q01_Recursive_Faktoriyel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice12/Q02_Map_FiyatToplami.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice12/Q02_Map_FiyatToplamiEntryset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice12/Q03_ForLoop_UsAlma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice12/Q04_Random_AdOlusturma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice12/Q05_Map_AdSoyad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day12forloopwhileloop/ForLoop01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day12forloopwhileloop/ForLoop02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day12forloopwhileloop/ForLoop03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day12forloopwhileloop/ForLoop04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day12forloopwhileloop/ForLoop05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day12forloopwhileloop/WhileLoop01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day13whileloopdowhilelooparrays/Arrays01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day13whileloopdowhilelooparrays/DoWhileLoop01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day13whileloopdowhilelooparrays/DoWhileLoop02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day13whileloopdowhilelooparrays/DoWhileLoop03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day13whileloopdowhilelooparrays/WhileLoop01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day14arraysforeachloop/Arrays01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day14arraysforeachloop/Arrays02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day14arraysforeachloop/Arrays03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day14arraysforeachloop/Arrays04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day14arraysforeachloop/Arrays05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day33maps/HashMaps01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day33maps/HashMaps02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day33maps/HashMaps03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day34mapiterators/HashMapMechanism.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day34mapiterators/HashTable01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day34mapiterators/Iterators01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day34mapiterators/TreeMap01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/sule/practice02/C01_NestedLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/sule/practice02/practice04/C01_ForLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/sule/practice02/practice04/C01_ForLoopCdenOncekiA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/sule/practice02/practice04/C02_ForLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/sule/practice02/practice04/interviewC03_DoWhileLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/sule/practice02/practice04/interviewC04WhileLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aracKiralama/AracAlmaVeTeslimEtme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aracKiralama/AracAlmaVeTeslimEtme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aracKiralama/Dummy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aracKiralama/Dummy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aracKiralama/MusteriveAracBilgileri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aracKiralama/MusteriveAracBilgileri.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aracKiralama/RunnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aracKiralama/RunnerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day16multidimansionalarray/Md01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day16multidimansionalarray/Md01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day23datetimestringbuilder/StringBuffer01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day23datetimestringbuilder/StringBuffer01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day30Exceptionsinterface/Exceptions02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day30Exceptionsinterface/Exceptions02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day32collections/TreeSet01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day32collections/TreeSet01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/VeriBankasi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/VeriBankasi.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,17 +112,18 @@
       <recent name="mentoring" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="advancepractice.practice12" />
       <recent name="day25inhetirance" />
       <recent name="day24accessmodifiersinheritance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Runner">
-    <configuration name="BirdSeed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ssg01.telefon.BirdSeed" />
+  <component name="RunManager" selected="Application.Iterators01">
+    <configuration name="HashMapMechanism" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day34mapiterators.HashMapMechanism" />
       <module name="BATCH129" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ssg01.telefon.*" />
+          <option name="PATTERN" value="day34mapiterators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dummy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aracKiralama.Dummy" />
+    <configuration name="HashTable01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day34mapiterators.HashTable01" />
       <module name="BATCH129" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aracKiralama.*" />
+          <option name="PATTERN" value="day34mapiterators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MusteriveAracBilgileri" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aracKiralama.MusteriveAracBilgileri" />
+    <configuration name="Iterators01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day34mapiterators.Iterators01" />
       <module name="BATCH129" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aracKiralama.*" />
+          <option name="PATTERN" value="day34mapiterators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day03scanner.Runner" />
+    <configuration name="Q05_Map_AdSoyad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="advancepractice.practice12.Q05_Map_AdSoyad" />
       <module name="BATCH129" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day03scanner.*" />
+          <option name="PATTERN" value="advancepractice.practice12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +170,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Yardim" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aracKiralama.Yardim" />
+    <configuration name="TreeMap01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day34mapiterators.TreeMap01" />
       <module name="BATCH129" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aracKiralama.*" />
+          <option name="PATTERN" value="day34mapiterators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Runner" />
-        <item itemvalue="Application.Dummy" />
-        <item itemvalue="Application.BirdSeed" />
-        <item itemvalue="Application.Yardim" />
-        <item itemvalue="Application.MusteriveAracBilgileri" />
+        <item itemvalue="Application.Iterators01" />
+        <item itemvalue="Application.HashMapMechanism" />
+        <item itemvalue="Application.TreeMap01" />
+        <item itemvalue="Application.HashTable01" />
+        <item itemvalue="Application.Q05_Map_AdSoyad" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +223,28 @@
       <option name="project" value="LOCAL" />
       <updated>1674818529342</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="second">
+      <created>1674818862862</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674818862863</updated>
+    </task>
+    <task id="LOCAL-00005" summary="second">
+      <created>1674818921261</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674818921261</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1-27">
+      <created>1674819087272</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674819087272</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,23 +262,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="first" />
     <MESSAGE value="second" />
-    <option name="LAST_COMMIT_MESSAGE" value="second" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/main/java/day24accessmodifiersinheritance/Ogrenci.java</url>
-          <line>6</line>
-          <properties field="stdId" class="day24accessmodifiersinheritance.Ogrenci" />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/day29exceptions/C02_Exceptions.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="1-27" />
+    <option name="LAST_COMMIT_MESSAGE" value="1-27" />
   </component>
 </project>

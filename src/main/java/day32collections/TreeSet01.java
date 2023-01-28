@@ -66,7 +66,7 @@ public class TreeSet01 {
         System.out.println(tailSet3);//[25, 32] 12 elemanlardan biri normalde 12 ve sonraki elemanlar bir Set icinde yazdirilirdi
         //ama ben ikinci parametrelerde false kulladigim icin 12 haric tutuldu.
 
-//Generic Method: Normal methodlar parametrelerde belirtilen data type'lari ile calisirlar.
+        //Generic Method: Normal methodlar parametrelerde belirtilen data type'lari ile calisirlar.
         //Generic Method'lar ise verilen her turlu data type ile calisma becerisine sahiptirler.
         SortedSet<Integer> headSet1 = ts.headSet(12);
         System.out.println("headSet1 = " + headSet1);//headSet1 = [3, 8] 12 elemanlardan biri ondeki elemanlar bir set icinde yazdirildi. 12 yazdirilmadi.
