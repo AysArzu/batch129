@@ -21,7 +21,7 @@ Note: ArrayLists'ler eleman ekleme ve eleman silme konusunda başarısızdırlar
 Bu yüzden yapılacak application'da fazlaca eleman eklenip çıkarılacaksa ArrayList kullanılması tavsiye edilmez.
 Java Bu tarz işlemler için LinkedList'i oluşturmuştur.
 LinkedList index kullanmadığı için eleman ekleme ve çıkarma işlemini oldukça kolay yapar.
-Herbir eleman iki bölümden oluşur. birinci bölümde elemenın değeri vardır. ikinci bölümde pointer vardır bir sonraki elemanı gösterir.
+Herbir eleman iki bölümden oluşur. birinci bölümde elemanın değeri vardır. ikinci bölümde pointer vardır bir sonraki elemanı gösterir.
 6)Linkedlist'ler index kullanmadılarından eleman silmede ve eklemede re-index yapılmasına gerek yoktur.
 Bu da LinkedList'leri eleman eklemede ve silmede çok başarılı hale getirir.
 Bu yüzden eleman ekleme ve silmenin çok yapılması gereken durumlarda LinkedList kullanmak tavsiye edilir.

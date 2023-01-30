@@ -2,7 +2,7 @@ package day31collections;
 
 import java.util.HashSet;
 
-public class HashSet01 {
+public class  HashSet01 {
     public static void main(String[] args) {
 
 /*

@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4af5945d-de09-4c8e-8c8d-1bd7f601bb0b" name="Changes" comment="1-29" />
+    <list default="true" id="4af5945d-de09-4c8e-8c8d-1bd7f601bb0b" name="Changes" comment="1-22">
+      <change afterPath="$PROJECT_DIR$/src/main/java/day34mapiterators/UsStates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day34mapiterators/UsStatesRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day35lambda/Lambda01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/advancepractice/practice12/Q02_Map_FiyatToplami.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice12/Q02_Map_FiyatToplami.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day31collections/HashSet01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day31collections/HashSet01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day31collections/LinkedList01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day31collections/LinkedList01.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -64,22 +73,9 @@
       <recent name="day24accessmodifiersinheritance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Iterators01">
+  <component name="RunManager" selected="Application.Q02_Map_FiyatToplami">
     <configuration name="HashMapMechanism" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day34mapiterators.HashMapMechanism" />
-      <module name="BATCH129" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day34mapiterators.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HashTable01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day34mapiterators.HashTable01" />
       <module name="BATCH129" />
       <extension name="coverage">
         <pattern>
@@ -104,8 +100,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q05_Map_AdSoyad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="advancepractice.practice12.Q05_Map_AdSoyad" />
+    <configuration name="Lambda01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day35lambda.Lambda01" />
+      <module name="BATCH129" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day35lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q02_Map_FiyatToplami" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="advancepractice.practice12.Q02_Map_FiyatToplami" />
       <module name="BATCH129" />
       <extension name="coverage">
         <pattern>
@@ -117,8 +126,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeMap01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day34mapiterators.TreeMap01" />
+    <configuration name="UsStatesRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day34mapiterators.UsStatesRunner" />
       <module name="BATCH129" />
       <extension name="coverage">
         <pattern>
@@ -132,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q02_Map_FiyatToplami" />
+        <item itemvalue="Application.Lambda01" />
+        <item itemvalue="Application.UsStatesRunner" />
         <item itemvalue="Application.Iterators01" />
         <item itemvalue="Application.HashMapMechanism" />
-        <item itemvalue="Application.TreeMap01" />
-        <item itemvalue="Application.HashTable01" />
-        <item itemvalue="Application.Q05_Map_AdSoyad" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674939681724</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="1-22">
+      <created>1674939748414</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1674939748414</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,6 +234,7 @@
     <MESSAGE value="second" />
     <MESSAGE value="1-27" />
     <MESSAGE value="1-29" />
-    <option name="LAST_COMMIT_MESSAGE" value="1-29" />
+    <MESSAGE value="1-22" />
+    <option name="LAST_COMMIT_MESSAGE" value="1-22" />
   </component>
 </project>
