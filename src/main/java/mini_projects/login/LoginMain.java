@@ -30,11 +30,11 @@ public class LoginMain {
 
     public static void start() {
         Scanner scanner = new Scanner(System.in);
-        UserService userService = new UserService();
+        UserService userService = new UserService();// bu obje ile diger classtaki methodlara ulasabilecegiz
         int select;
-
+               //menuyu sectirme bolumu burasi
         do {
-            userService.showMenu();
+            userService.showMenu();//userservice deki methoda ulastik!!!
             select = scanner.nextInt();
             switch (select) {
                 case 1:

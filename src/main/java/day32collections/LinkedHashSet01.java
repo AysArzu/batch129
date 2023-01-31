@@ -18,7 +18,7 @@ Set tekrar kabul etmez. Yani; tekrarsiz veriler için kullanılır.*/
         System.out.println(artist);//[Ajda, Tom, Brad, Angelina] iki tom olmasina ragmen 1 tane yazdi!!!
 
 //'Set' ler tekrarsiz eleman icerirler.Siz ayni elemani tekrar tekrar eklerseniz Java hata vermez
-// ama tekrarli eklenen elelmani "Set"e sadece 1 kere koyar.
+// ama tekrarli eklenen elemani "Set"e sadece 1 kere koyar.
 
         LinkedHashSet<String>actress=new LinkedHashSet<>();
         actress.add("Ajda");

@@ -8,11 +8,11 @@ public class Queue01 {
     /*
     "Queue"larda ilk gelen ilk isleme girer.(First In First Out==> FIFO)
     yemek sirketine application yaparsan son kullanma tarihine dikkat etmek icin ise yarar.
-    bAZEN DE SON GELEN ILK ISLEME GIRER.(last In First Out==>LIFO)
+    BAZEN DE SON GELEN ILK ISLEME GIRER.(last In First Out==>LIFO)
     "Deque"  "Double Enden Queue"  iki uclu hem basi hem sonu calisir. hem FIFO hem LIFO icin kullanilir.
 
      "Queue" bir interface'tir. Bu yuzden constructor"i yoktur. Dolayisiyla object olustururken new keyword'unden sonra kullanilamaz 
-     Data type 'i Queue olan bir object olusturmak icin new keyword'unden sonrai)LinkedList veya ii) PriorityQueue classlari kullanilir  
+     Data type'i Queue olan bir object olusturmak icin new keyword'unden sonra i)LinkedList veya ii) PriorityQueue classlari kullanilir
      */
 
     public static void main(String[] args) {

@@ -17,7 +17,7 @@ public class Iterators01 {
         Iterator'lar Java tarafından sonradan oluşturulmuşlardır.
         Loop'ların yaptıkları bütün işlemleri yapabilirler.
         Looplar ile iteratorlarin performans farki yoktur ama Iteratorlar eleman silme ve update etmede daha basarilidirlar
-        eger bir colletionda eleman silme ve update islemiyapcaksan loop kullanmamaliyiz
+        eger bir collectionda eleman silme ve update islemi yapcaksan loop kullanmamaliyiz
 
         iki tip iterator var
         i) Iterator : Sadece elemanlari remove edebilirsiniz.

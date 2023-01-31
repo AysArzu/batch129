@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class UserService {
 
-    List<String> usernameList = new ArrayList<>();
+    List<String> usernameList = new ArrayList<>();// bunlarin hwpai diger classlarda da kullanilsin diye uste yazilir
     List<String> emailList = new ArrayList<>();
     List<String> passwordList = new ArrayList<>();
 
@@ -77,10 +77,10 @@ public class UserService {
     public void login() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Kullanici adi veya email giriniz");
-        String usernameOremail = scanner.nextLine();
+        String usernameOrEmail = scanner.nextLine();
 
-        boolean isEmail = emailList.contains(usernameOremail);
-        boolean isUsername = usernameList.contains(usernameOremail);
+        boolean isEmail = emailList.contains(usernameOrEmail);
+        boolean isUsername = usernameList.contains(usernameOrEmail);
 
         if (isEmail || isUsername) {
 
@@ -89,9 +89,9 @@ public class UserService {
                 String password = scanner.nextLine();
                 int idx;
                 if (isUsername) {
-                    idx = usernameList.indexOf(usernameOremail);
+                    idx = usernameList.indexOf(usernameOrEmail);
                 } else {
-                    idx = emailList.indexOf(usernameOremail);
+                    idx = emailList.indexOf(usernameOrEmail);
                 }
 
                 if (passwordList.get(idx).equals(password)) {
@@ -106,7 +106,8 @@ public class UserService {
 
         } else {
             System.out.println("Sisteme kayitli kullanici bulunamadi");
-            System.out.println("Bilgileri kontrol ediniz yada uye olunuz");
+            System.out.println("Uyeyseniz bilgilerinizi kontrol ediniz," +
+                    "eger uye degilseniz sistemi kullanmak icin uye olunuz");
         }
     }
 
