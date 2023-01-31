@@ -125,4 +125,5 @@ public class MusteriveAracBilgileri {
         System.out.println(toplamGun1 + " gunluk arac kiralama bedeli " + ucret + " liradir");
         return ucret;
     }
-}
+    }
+

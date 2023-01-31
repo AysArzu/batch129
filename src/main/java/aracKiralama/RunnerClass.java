@@ -9,7 +9,6 @@ public class RunnerClass {
         obj.aractalep();
         MusteriveAracBilgileri user = new MusteriveAracBilgileri();
 
-
         user.aracBilgisi();
         user.musteriBilgileri();
         Tarih objtrh = new Tarih();

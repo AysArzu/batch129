@@ -3,7 +3,9 @@ package practiceSule08.nighttime08.hastane;
 public class Runner {
     private static Hastane hastane = new Hastane();// static yaptik main uzerinde
 
+
     public static void main(String[] args) {
+
 
         String hastaDurumu = "Bas agrisi";
         String unvan = doktorUnvan(hastaDurumu);
@@ -36,7 +38,7 @@ public class Runner {
 
         } else if (actuelDurum.equals("Kalp hastaliklari")) {
             return hastane.unvanlar[5];
-        }else{
+        } else {
             return "Yanlis Durum";
         }
 
@@ -48,7 +50,6 @@ public class Runner {
         Doktor doktor = new Doktor();
 
         for (int i = 0; i < hastane.unvanlar.length; i++) {
-
             if (unvan.equals(hastane.unvanlar[i])) {
                 doktor.setIsim(hastane.doctorIsimleri[i]);
                 doktor.setSoyIsim(hastane.doctorSoyIsimleri[i]);
@@ -56,5 +57,46 @@ public class Runner {
             }//if
         }//for i
         return doktor;
-    }//
+
+
     }
+
+    public static Durum hastaDurumuBul(String aktuelDurum) {
+        boolean aciliyet;
+        Durum hastaDurumu = new Durum();
+
+        switch (aktuelDurum) {
+            case " Allerji":
+            case " Bas agrisi":
+            case " Diabet":
+            case " Soguk alginligi":
+                aciliyet = false;
+                break;
+
+            case "Migren":
+            case "Kalp hastaliklari":
+                aciliyet = true;
+                break;
+            default:
+                System.out.println("Gecerli bir durum degil");
+        }
+
+        return hastaDurumu;
+    }
+    public static Hasta hastaBul(String actualCase){
+        Hasta hasta= new Hasta();
+        for (int i = 0; i <hastane.hastaIsimleri.length ; i++) {
+            if(actualCase.equalsIgnoreCase(hastane.durumlar[i])){
+                hasta.setIsim(hastane.hastaIsimleri[i]);
+                hasta.setSoyIsim(hastane.hastaSoyIsimleri[i]);
+            //    hasta.setHastaDurumu(hastane.getHasta().getHastaDurumu());
+                hasta.setHastaID(hastane.hastaIDleri[i]);
+            }
+        }
+        return hasta;
+    }
+}
+
+
+
+

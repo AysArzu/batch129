@@ -82,7 +82,7 @@ bir elemanı bulmak için en baştan bütün elemanlar kontrol edilir, bu da ço
         System.out.println(r2);//Steve
 
         System.out.println(names.peek());//Retrieves, but does not remove, the head (first element) of this list.(Copy+Paste)
-        // Returns: the head of this list, or null if this list is empty
+        // Returns: the head of this list, or null if this list is empty bossa null doner
         //[Steve, Ebubekir, Raj, Brandon, Ajda, Ayşe] peek silmiyor
 
         names.peekLast();// son elemanı yazdırır silmez.

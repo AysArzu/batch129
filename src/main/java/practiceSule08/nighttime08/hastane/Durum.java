@@ -20,4 +20,13 @@ public class Durum {
     public void setAcilMi(boolean acilMi) {
         this.acilMi = acilMi;
     }
+
+
+    public Durum(String actuelDurumu, boolean acilMi) {
+        this.actuelDurumu = actuelDurumu;
+        this.acilMi = acilMi;
+    }
+
+    public Durum() {
+    }
 }
