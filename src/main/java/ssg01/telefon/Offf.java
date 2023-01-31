@@ -1,4 +1,4 @@
-package aracKiralama;
+package ssg01.telefon;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

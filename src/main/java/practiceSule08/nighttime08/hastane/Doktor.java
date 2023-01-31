@@ -28,4 +28,13 @@ public class Doktor {
     public void setUnvan(String unvan) {
         this.unvan = unvan;
     }
+
+    @Override
+    public String toString() {
+        return "Doktor{" +
+                "isim='" + isim + '\'' +
+                ", soyIsim='" + soyIsim + '\'' +
+                ", unvan='" + unvan + '\'' +
+                '}';
+    }
 }

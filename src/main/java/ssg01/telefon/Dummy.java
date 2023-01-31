@@ -1,4 +1,4 @@
-package aracKiralama;
+package ssg01.telefon;
 
 import java.time.*;
 import java.time.format.DateTimeFormatter;

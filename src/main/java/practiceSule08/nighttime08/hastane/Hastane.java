@@ -20,4 +20,12 @@ public class Hastane extends VeriBankasi{
     public void setHasta(Hasta hasta) {
         this.hasta = hasta;
     }
+
+    @Override
+    public String toString() {
+        return "Hastane{" +
+                "doktor=" + doktor +
+                ", hasta=" + hasta +
+                '}';
+    }
 }

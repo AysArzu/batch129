@@ -38,4 +38,14 @@ public class Hasta {
     public void setHastaDurumu(Durum hastaDurumu) {
         this.hastaDurumu = hastaDurumu;
     }
+
+    @Override
+    public String toString() {
+        return "Hasta{" +
+                "isim='" + isim + '\'' +
+                ", soyIsim='" + soyIsim + '\'' +
+                ", hastaID=" + hastaID +
+                ", hastaDurumu=" + hastaDurumu +
+                '}';
+    }
 }

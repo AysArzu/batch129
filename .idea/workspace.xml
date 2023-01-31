@@ -4,20 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4af5945d-de09-4c8e-8c8d-1bd7f601bb0b" name="Changes" comment="1-30">
-      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice13/Aile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice13/BeslenmeEgzersiz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice13/Q01_Map_AyniFiyat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice13/Q02_Map_Aile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice13/Q03_Enum_BeslenmeEgzersiz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/advancepractice/practice13/Q04_KursaOgrenciSec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/sule/practice02/daytime10/KullaniciBilgileriMap.java" afterDir="false" />
+    <list default="true" id="4af5945d-de09-4c8e-8c8d-1bd7f601bb0b" name="Changes" comment="1-31">
+      <change afterPath="$PROJECT_DIR$/src/main/java/aracKiralama/SehirSec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aracKiralama/Tarih.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day32collections/LinkedHashSet01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day32collections/LinkedHashSet01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day32collections/Queue01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day32collections/Queue01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day34mapiterators/Iterators01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day34mapiterators/Iterators01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/login/LoginMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/login/LoginMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/login/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/login/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aracKiralama/Dummy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ssg01/telefon/Dummy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aracKiralama/MusteriveAracBilgileri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aracKiralama/MusteriveAracBilgileri.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aracKiralama/Offf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ssg01/telefon/Offf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aracKiralama/RunnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aracKiralama/RunnerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/sule/practice02/daytime10/KullaniciBilgileriMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/sule/practice02/daytime10/KullaniciBilgileriMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Doktor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Doktor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Durum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Durum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Hasta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Hasta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Hastane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Hastane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/VeriBankasi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/VeriBankasi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ssg01/telefon/dummy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ssg01/telefon/dummy1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,13 +81,13 @@
       <recent name="day24accessmodifiersinheritance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q04_KursaOgrenciSec">
-    <configuration name="Q01_Map_AyniFiyat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="advancepractice.practice13.Q01_Map_AyniFiyat" />
+  <component name="RunManager" selected="Application.Runner">
+    <configuration name="KullaniciBilgileriMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.sule.practice02.daytime10.KullaniciBilgileriMap" />
       <module name="BATCH129" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="advancepractice.practice13.*" />
+          <option name="PATTERN" value="practice.sule.practice02.daytime10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,19 +101,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="advancepractice.practice13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q02_Map_FiyatToplami" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="advancepractice.practice12.Q02_Map_FiyatToplami" />
-      <module name="BATCH129" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="advancepractice.practice12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,13 +134,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practiceSule08.nighttime08.hastane.Runner" />
+      <module name="BATCH129" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practiceSule08.nighttime08.hastane.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Runner" />
+        <item itemvalue="Application.KullaniciBilgileriMap" />
         <item itemvalue="Application.Q04_KursaOgrenciSec" />
         <item itemvalue="Application.Q03_Enum_BeslenmeEgzersiz" />
         <item itemvalue="Application.Q02_Map_Aile" />
-        <item itemvalue="Application.Q01_Map_AyniFiyat" />
-        <item itemvalue="Application.Q02_Map_FiyatToplami" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675067876840</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="1-31">
+      <created>1675163585589</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1675163585590</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,6 +258,7 @@
     <MESSAGE value="1-29" />
     <MESSAGE value="1-22" />
     <MESSAGE value="1-30" />
-    <option name="LAST_COMMIT_MESSAGE" value="1-30" />
+    <MESSAGE value="1-31" />
+    <option name="LAST_COMMIT_MESSAGE" value="1-31" />
   </component>
 </project>

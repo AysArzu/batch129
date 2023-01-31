@@ -2,15 +2,15 @@ package practiceSule08.nighttime08.hastane;
 
 public class Durum {
 
-   private String actualtDurumu;
+   private String actuelDurumu;
     private boolean acilMi;
 
-    public String getActualtDurumu() {
-        return actualtDurumu;
+    public String getActuelDurumu() {
+        return actuelDurumu;
     }
 
-    public void setActualtDurumu(String actualtDurumu) {
-        this.actualtDurumu = actualtDurumu;
+    public void setActuelDurumu(String actuelDurumu) {
+        this.actuelDurumu = actuelDurumu;
     }
 
     public boolean isAcilMi() {
