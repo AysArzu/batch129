@@ -6,9 +6,10 @@ public class Runner {
     Scanner scan= new Scanner(System.in);
 
     public static void main(String[] args) {
-        System.out.println("Enter the amount you would like to withdraw");
+
+Options options= new Options();
+options.savingOperations();
 
 
-        System.out.println("your checing balance is : ");
     }
 }
