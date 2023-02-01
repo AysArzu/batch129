@@ -29,4 +29,12 @@ public class Durum {
 
     public Durum() {
     }
+
+    @Override
+    public String toString() {
+        return "Durum{" +
+                "actuelDurumu='" + actuelDurumu + '\'' +
+                ", acilMi=" + acilMi +
+                '}';
+    }
 }

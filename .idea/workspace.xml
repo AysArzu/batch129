@@ -5,15 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4af5945d-de09-4c8e-8c8d-1bd7f601bb0b" name="Changes" comment="1-31">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sokrative/Soru02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sokrative/Sour01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atmproject/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atmproject/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atmproject/options.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/DoktorIslemleri.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/HastaIslemleri.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/QA_HastanesiIslemleri.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/practice09/KullaniciBilgileriMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sokrative/Soru.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aracKiralama/Araba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aracKiralama/Araba.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aracKiralama/MusteriveAracBilgileri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aracKiralama/MusteriveAracBilgileri.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aracKiralama/RunnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aracKiralama/RunnerClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day31collections/LinkedList01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day31collections/LinkedList01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/sule/practice02/daytime10/KullaniciBilgileriMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/sule/practice02/daytime10/KullaniciBilgileriMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Doktor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Doktor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Durum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Durum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Hasta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Hasta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Hastane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Hastane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/HastaneRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/practice09/CollectionsMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/practice09/CollectionsMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sokrative/Soru02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sokrative/Sour01.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,39 +84,39 @@
       <recent name="day24accessmodifiersinheritance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Telefon">
+  <component name="RunManager" selected="Application.KullaniciBilgileriMap">
+    <configuration name="CollectionsMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practiceSule08.nighttime08.practice09.CollectionsMethods" />
+      <module name="BATCH129" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practiceSule08.nighttime08.practice09.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HastaneRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practiceSule08.nighttime08.hastane.HastaneRunner" />
+      <module name="BATCH129" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practiceSule08.nighttime08.hastane.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KullaniciBilgileriMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice.sule.practice02.daytime10.KullaniciBilgileriMap" />
       <module name="BATCH129" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="practice.sule.practice02.daytime10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q04_KursaOgrenciSec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="advancepractice.practice13.Q04_KursaOgrenciSec" />
-      <module name="BATCH129" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="advancepractice.practice13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practiceSule08.nighttime08.hastane.Runner" />
-      <module name="BATCH129" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practiceSule08.nighttime08.hastane.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Telefon" />
-        <item itemvalue="Application.Runner" />
-        <item itemvalue="Application.RunnerClass" />
         <item itemvalue="Application.KullaniciBilgileriMap" />
-        <item itemvalue="Application.Q04_KursaOgrenciSec" />
+        <item itemvalue="Application.HastaneRunner" />
+        <item itemvalue="Application.CollectionsMethods" />
+        <item itemvalue="Application.Telefon" />
+        <item itemvalue="Application.RunnerClass" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675174853225</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="1-31">
+      <created>1675195127258</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1675195127262</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

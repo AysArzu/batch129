@@ -21,6 +21,14 @@ public class Hastane extends VeriBankasi{
         this.hasta = hasta;
     }
 
+    public Hastane() {
+    }
+
+    public Hastane(Doktor doktor, Hasta hasta) {
+        this.doktor = doktor;
+        this.hasta = hasta;
+    }
+
     @Override
     public String toString() {
         return "Hastane{" +

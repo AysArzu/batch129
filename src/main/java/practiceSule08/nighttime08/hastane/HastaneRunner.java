@@ -1,11 +1,14 @@
 package practiceSule08.nighttime08.hastane;
 
-public class Runner {
-    private static Hastane hastane = new Hastane();// static yaptik main uzerinde
+public class HastaneRunner {
 
+    private static Hastane hastane = new Hastane();
 
     public static void main(String[] args) {
 
+        HastaIslemleri.hastaEkle();
+
+//        QA9_Hastanesiislemler.start();
 
         String hastaDurumu = "Bas agrisi";
         String unvan = doktorUnvan(hastaDurumu);
@@ -16,32 +19,34 @@ public class Runner {
         System.out.println("Doktor soy isim: " + hastane.getDoktor().getSoyIsim());
         System.out.println("Doktor unvani: " + hastane.getDoktor().getUnvan());
 
+        System.out.println(hastaBul(hastaDurumu));
+
     }//main
 
 
     public static String doktorUnvan(String actuelDurum) {
 
-        if (actuelDurum.equals("Allerji")) {
-            return hastane.unvanlar[0];
+        switch (actuelDurum) {
+            case "Allerji":
+                return hastane.unvanlar[0];
 
-        } else if (actuelDurum.equals("Bas agrisi")) {
-            return hastane.unvanlar[1];
+            case "Bas agrisi":
+                return hastane.unvanlar[1];
 
-        } else if (actuelDurum.equals("Diabet")) {
-            return hastane.unvanlar[2];
+            case "Diabet":
+                return hastane.unvanlar[2];
 
-        } else if (actuelDurum.equals("Soguk alginligi")) {
-            return hastane.unvanlar[3];
+            case "Soguk alginligi":
+                return hastane.unvanlar[3];
 
-        } else if (actuelDurum.equals("Migren")) {
-            return hastane.unvanlar[4];
+            case "Migren":
+                return hastane.unvanlar[4];
 
-        } else if (actuelDurum.equals("Kalp hastaliklari")) {
-            return hastane.unvanlar[5];
-        } else {
-            return "Yanlis Durum";
+            case "Kalp hastaliklari":
+                return hastane.unvanlar[5];
+            default:
+                return "Yanlis Durum";
         }
-
 
     }//method
 
@@ -50,6 +55,7 @@ public class Runner {
         Doktor doktor = new Doktor();
 
         for (int i = 0; i < hastane.unvanlar.length; i++) {
+
             if (unvan.equals(hastane.unvanlar[i])) {
                 doktor.setIsim(hastane.doctorIsimleri[i]);
                 doktor.setSoyIsim(hastane.doctorSoyIsimleri[i]);
@@ -57,13 +63,11 @@ public class Runner {
             }//if
         }//for i
         return doktor;
-
-
-    }
+}
 
     public static Durum hastaDurumuBul(String aktuelDurum) {
-        boolean aciliyet;
-        Durum hastaDurumu = new Durum();
+
+        boolean aciliyet = false;
 
         switch (aktuelDurum) {
             case " Allerji":
@@ -72,7 +76,6 @@ public class Runner {
             case " Soguk alginligi":
                 aciliyet = false;
                 break;
-
             case "Migren":
             case "Kalp hastaliklari":
                 aciliyet = true;
@@ -81,21 +84,30 @@ public class Runner {
                 System.out.println("Gecerli bir durum degil");
         }
 
+        Durum hastaDurumu = new Durum(aktuelDurum, aciliyet);
+
         return hastaDurumu;
-    }
-    public static Hasta hastaBul(String actualCase){
-        Hasta hasta= new Hasta();
-        for (int i = 0; i <hastane.hastaIsimleri.length ; i++) {
-            if(actualCase.equalsIgnoreCase(hastane.durumlar[i])){
+
+    }//method
+
+
+    public static Hasta hastaBul(String aktuelDurum) {
+
+        Hasta hasta = new Hasta();
+
+        for (int i = 0; i < hastane.hastaIsimleri.length; i++) {
+            if (aktuelDurum.equalsIgnoreCase(hastane.durumlar[i])) {
                 hasta.setIsim(hastane.hastaIsimleri[i]);
                 hasta.setSoyIsim(hastane.hastaSoyIsimleri[i]);
-            //    hasta.setHastaDurumu(hastane.getHasta().getHastaDurumu());
                 hasta.setHastaID(hastane.hastaIDleri[i]);
+                hasta.setHastaDurumu(hastaDurumuBul(aktuelDurum));
             }
         }
         return hasta;
+    }//method hastaBul
+
     }
-}
+
 
 
 

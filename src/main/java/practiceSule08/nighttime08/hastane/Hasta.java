@@ -39,6 +39,16 @@ public class Hasta {
         this.hastaDurumu = hastaDurumu;
     }
 
+    public Hasta() {
+    }
+
+    public Hasta(String isim, String soyIsim, int hastaID, Durum hastaDurumu) {
+        this.isim = isim;
+        this.soyIsim = soyIsim;
+        this.hastaID = hastaID;
+        this.hastaDurumu = hastaDurumu;
+    }
+
     @Override
     public String toString() {
         return "Hasta{" +

@@ -29,6 +29,15 @@ public class Doktor {
         this.unvan = unvan;
     }
 
+    public Doktor() {
+    }
+
+    public Doktor(String isim, String soyIsim, String unvan) {
+        this.isim = isim;
+        this.soyIsim = soyIsim;
+        this.unvan = unvan;
+    }
+
     @Override
     public String toString() {
         return "Doktor{" +
