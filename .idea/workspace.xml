@@ -4,13 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4af5945d-de09-4c8e-8c8d-1bd7f601bb0b" name="Changes" comment="01-02">
-      <change afterPath="$PROJECT_DIR$/src/main/java/biletbas/Bilet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/biletbas/Task" afterDir="false" />
+    <list default="true" id="4af5945d-de09-4c8e-8c8d-1bd7f601bb0b" name="Changes" comment="02-02">
+      <change afterPath="$PROJECT_DIR$/src/main/java/day35lambda/Lambda02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day36lambda/Lambda01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day36lambda/Lambda02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day36lambda/Universite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/QA9_Hastanesiislemler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atmproject/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atmproject/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atmproject/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atmproject/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atmproject/options.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atmproject/Options.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day35lambda/Lambda01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day35lambda/Lambda01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/DoktorIslemleri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/DoktorIslemleri.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Durum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Durum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/HastaIslemleri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/HastaIslemleri.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/HastaneRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/HastaneRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/QA_HastanesiIslemleri.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/VeriBankasi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/VeriBankasi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/practice09/KullaniciBilgileriMap.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +61,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/PROJECTS",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "preferences.editor"
   },
   "keyToStringList": {
     "ChangesTree.GroupingKeys": [
@@ -72,26 +80,13 @@
       <recent name="day24accessmodifiersinheritance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Bilet">
+  <component name="RunManager" selected="Application.HastaneRunner">
     <configuration name="Bilet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="biletbas.Bilet" />
       <module name="BATCH129" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="biletbas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CollectionsMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practiceSule08.nighttime08.practice09.CollectionsMethods" />
-      <module name="BATCH129" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practiceSule08.nighttime08.practice09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KullaniciBilgileriMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.sule.practice02.daytime10.KullaniciBilgileriMap" />
+    <configuration name="Lambda01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day36lambda.Lambda01" />
       <module name="BATCH129" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.sule.practice02.daytime10.*" />
+          <option name="PATTERN" value="day36lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +120,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="atmproject.Runner" />
+    <configuration name="Lambda02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day36lambda.Lambda02" />
       <module name="BATCH129" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="atmproject.*" />
+          <option name="PATTERN" value="day36lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day35lambda.Lambda01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day35lambda.Lambda01" />
+      <module name="BATCH129" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day35lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Bilet" />
-        <item itemvalue="Application.Runner" />
-        <item itemvalue="Application.KullaniciBilgileriMap" />
         <item itemvalue="Application.HastaneRunner" />
-        <item itemvalue="Application.CollectionsMethods" />
+        <item itemvalue="Application.Lambda02" />
+        <item itemvalue="Application.Lambda01" />
+        <item itemvalue="Application.day35lambda.Lambda01" />
+        <item itemvalue="Application.Bilet" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675260920536</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="02-02">
+      <created>1675286200788</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1675286200788</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -272,6 +287,7 @@
     <MESSAGE value="1-30" />
     <MESSAGE value="1-31" />
     <MESSAGE value="01-02" />
-    <option name="LAST_COMMIT_MESSAGE" value="01-02" />
+    <MESSAGE value="02-02" />
+    <option name="LAST_COMMIT_MESSAGE" value="02-02" />
   </component>
 </project>

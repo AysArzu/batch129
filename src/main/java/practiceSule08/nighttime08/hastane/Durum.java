@@ -2,29 +2,28 @@ package practiceSule08.nighttime08.hastane;
 
 public class Durum {
 
-   private String actuelDurumu;
-    private boolean acilMi;
+    private String aktuelDurum;
+    private boolean aciliyet;
 
-    public String getActuelDurumu() {
-        return actuelDurumu;
+    public String getAktuelDurum() {
+        return aktuelDurum;
     }
 
-    public void setActuelDurumu(String actuelDurumu) {
-        this.actuelDurumu = actuelDurumu;
+    public void setAktuelDurum(String aktuelDurum) {
+        this.aktuelDurum = aktuelDurum;
     }
 
-    public boolean isAcilMi() {
-        return acilMi;
+    public boolean isAciliyet() {
+        return aciliyet;
     }
 
-    public void setAcilMi(boolean acilMi) {
-        this.acilMi = acilMi;
+    public void setAciliyet(boolean aciliyet) {
+        this.aciliyet = aciliyet;
     }
 
-
-    public Durum(String actuelDurumu, boolean acilMi) {
-        this.actuelDurumu = actuelDurumu;
-        this.acilMi = acilMi;
+    public Durum(String aktuelDurum, boolean aciliyet) {
+        this.aktuelDurum = aktuelDurum;
+        this.aciliyet = aciliyet;
     }
 
     public Durum() {
@@ -33,8 +32,8 @@ public class Durum {
     @Override
     public String toString() {
         return "Durum{" +
-                "actuelDurumu='" + actuelDurumu + '\'' +
-                ", acilMi=" + acilMi +
+                "aktuelDurum='" + aktuelDurum + '\'' +
+                ", aciliyet=" + aciliyet +
                 '}';
     }
 }

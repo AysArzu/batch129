@@ -107,8 +107,8 @@ public class Lambda01 {
         //map() rakamlari degistirmede kullanilir
         nums.
                 stream().
-                filter(t -> t % 2 != 0).
-                map(t -> t * t).
+                filter(t -> t % 2 != 0).//tek sayilari sectik
+                map(t -> t * t).//var olani degistirir
                 forEach(t -> System.out.print(t + " "));
     }
 
@@ -128,7 +128,8 @@ public class Lambda01 {
 //reduce() methodu cok olan rakamlari tek rakama indirirken kullanilir ingilizcede dusurmek demek azalttik yani
     public static void printSumOfSquaresOfDistinctEvenElements(List<Integer> nums) {
 
-        Integer sum = nums.stream().distinct().filter(t -> t % 2 == 0).map(t -> t * t).reduce(0, (t, u) -> t + u);
+        Integer sum = nums.stream().distinct().filter(t -> t % 2 == 0).
+                            map(t -> t * t).reduce(0, (t, u) -> t + u);
         System.out.println(sum);
     }// bir degeri yazdirmak icin for each kurulmaz bir container'e koyar oyle yazdiririz.
 
