@@ -1,0 +1,23 @@
+package day36lambda;
+
+import java.util.List;
+
+public class Utils {//static ler class ismiyle cagirilir/ static olmazsa method icinde kullanamayiz
+
+    public static int getLengthSquare(String s) {
+        return s.length() * s.length();
+    }
+
+    public static boolean isEven(String s) {
+        return s.length() % 2 == 0;
+    }
+
+    public static String getLastChar(String s) {
+        return s.substring(s.length() - 1);
+    }
+
+    public static void printInTheSameLineWithSpace(Object obj) {
+        System.out.println(obj + " ");
+    }
+
+}

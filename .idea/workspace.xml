@@ -5,20 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4af5945d-de09-4c8e-8c8d-1bd7f601bb0b" name="Changes" comment="02-02">
-      <change afterPath="$PROJECT_DIR$/src/main/java/day35lambda/Lambda02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day36lambda/Lambda01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day36lambda/Lambda02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day36lambda/Universite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/QA9_Hastanesiislemler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day36lambda/Lambda001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day36lambda/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day37lambda/Lambda" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day37lambda/Lambda01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day37lambda/Lambda02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day37lambda/Lambda03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day37lambda/Utilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day37lambda/lambda1s.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/Constructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/ForWhile05_Eng.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/ForWhile06_Eng.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/ForWhile07_Eng.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/ForWhile_ENG04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/collection/Soru04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/collection/Soru05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/collection/Soru06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/collection/Soru07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/collection/Soru08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/collection/Soru09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/collection/Soru1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/collection/Soru10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/collection/Soru11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/collection/Soru12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/collection/Soru13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/collection/Soru14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/collection/Soru15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/collection/Soru16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/collection/Soru17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/collection/Soru18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/collection/Soru2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/collection/Soru3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/conditionalstatement/Soru01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/conditionalstatement/Soru02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/conditionalstatement/Soru03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/conditionalstatement/Soru04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/conditionalstatement/Soru05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/conditionalstatement/Soru06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/conditionalstatement/Soru07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/conditionalstatement/Soru08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/conditionalstatement/Soru09Elmas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/conditionalstatement/Soru10PaskalUcgeni.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/conditionalstatement/Soru11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/conditionalstatement/Soru12UglyNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day35lambda/Lambda01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day35lambda/Lambda01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/DoktorIslemleri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/DoktorIslemleri.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Durum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Durum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/HastaIslemleri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/HastaIslemleri.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/HastaneRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/HastaneRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/QA_HastanesiIslemleri.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/VeriBankasi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/VeriBankasi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/practice09/KullaniciBilgileriMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day36lambda/Lambda02.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,21 +86,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/PROJECTS",
-    "settings.editor.selected.configurable": "preferences.editor"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/PROJECTS&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory",
-      "module"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="mentoring" />
@@ -80,13 +111,13 @@
       <recent name="day24accessmodifiersinheritance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HastaneRunner">
-    <configuration name="Bilet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="biletbas.Bilet" />
+  <component name="RunManager" selected="Application.ForWhile07_Eng">
+    <configuration name="ForWhile04_Eng" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="replit.ForWhile04_Eng" />
       <module name="BATCH129" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="biletbas.*" />
+          <option name="PATTERN" value="replit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HastaneRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practiceSule08.nighttime08.hastane.HastaneRunner" />
+    <configuration name="ForWhile05_Eng" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="replit.ForWhile05_Eng" />
       <module name="BATCH129" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practiceSule08.nighttime08.hastane.*" />
+          <option name="PATTERN" value="replit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lambda01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day36lambda.Lambda01" />
+    <configuration name="ForWhile06_Eng" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="replit.ForWhile06_Eng" />
       <module name="BATCH129" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day36lambda.*" />
+          <option name="PATTERN" value="replit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lambda02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day36lambda.Lambda02" />
+    <configuration name="ForWhile07_Eng" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="replit.ForWhile07_Eng" />
       <module name="BATCH129" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day36lambda.*" />
+          <option name="PATTERN" value="replit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day35lambda.Lambda01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day35lambda.Lambda01" />
+    <configuration name="Soru12UglyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="replit.conditionalstatement.Soru12UglyNumber" />
       <module name="BATCH129" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day35lambda.*" />
+          <option name="PATTERN" value="replit.conditionalstatement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HastaneRunner" />
-        <item itemvalue="Application.Lambda02" />
-        <item itemvalue="Application.Lambda01" />
-        <item itemvalue="Application.day35lambda.Lambda01" />
-        <item itemvalue="Application.Bilet" />
+        <item itemvalue="Application.ForWhile07_Eng" />
+        <item itemvalue="Application.ForWhile06_Eng" />
+        <item itemvalue="Application.ForWhile05_Eng" />
+        <item itemvalue="Application.ForWhile04_Eng" />
+        <item itemvalue="Application.Soru12UglyNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675286200788</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="02-02">
+      <created>1675363140027</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1675363140027</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
