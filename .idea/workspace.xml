@@ -4,52 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4af5945d-de09-4c8e-8c8d-1bd7f601bb0b" name="Changes" comment="02-02">
-      <change afterPath="$PROJECT_DIR$/src/main/java/day36lambda/Lambda001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day36lambda/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day37lambda/Lambda" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day37lambda/Lambda01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day37lambda/Lambda02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day37lambda/Lambda03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day37lambda/Utilities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day37lambda/lambda1s.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/replit/Constructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/replit/ForWhile05_Eng.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/replit/ForWhile06_Eng.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/replit/ForWhile07_Eng.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/replit/ForWhile_ENG04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/replit/collection/Soru04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/replit/collection/Soru05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/replit/collection/Soru06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/replit/collection/Soru07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/replit/collection/Soru08.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/replit/collection/Soru09.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/replit/collection/Soru1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/replit/collection/Soru10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/replit/collection/Soru11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/replit/collection/Soru12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/replit/collection/Soru13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/replit/collection/Soru14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/replit/collection/Soru15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/replit/collection/Soru16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/replit/collection/Soru17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/replit/collection/Soru18.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/replit/collection/Soru2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/replit/collection/Soru3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/replit/conditionalstatement/Soru01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/replit/conditionalstatement/Soru02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/replit/conditionalstatement/Soru03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/replit/conditionalstatement/Soru04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/replit/conditionalstatement/Soru05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/replit/conditionalstatement/Soru06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/replit/conditionalstatement/Soru07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/replit/conditionalstatement/Soru08.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/replit/conditionalstatement/Soru09Elmas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/replit/conditionalstatement/Soru10PaskalUcgeni.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/replit/conditionalstatement/Soru11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/replit/conditionalstatement/Soru12UglyNumber.java" afterDir="false" />
+    <list default="true" id="4af5945d-de09-4c8e-8c8d-1bd7f601bb0b" name="Changes" comment="02-03">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day36lambda/Lambda02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/replit/list/EngList01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/replit/list/EngList01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +68,20 @@
       <recent name="day24accessmodifiersinheritance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ForWhile07_Eng">
+  <component name="RunManager" selected="Application.EngList01">
+    <configuration name="EngList01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="replit.list.EngList01" />
+      <module name="BATCH129" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="replit.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ForWhile04_Eng" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="replit.ForWhile04_Eng" />
       <module name="BATCH129" />
@@ -164,26 +134,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Soru12UglyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="replit.conditionalstatement.Soru12UglyNumber" />
-      <module name="BATCH129" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="replit.conditionalstatement.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EngList01" />
         <item itemvalue="Application.ForWhile07_Eng" />
         <item itemvalue="Application.ForWhile06_Eng" />
         <item itemvalue="Application.ForWhile05_Eng" />
         <item itemvalue="Application.ForWhile04_Eng" />
-        <item itemvalue="Application.Soru12UglyNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -301,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675363140027</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="02-03">
+      <created>1675502049195</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1675502049195</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -326,6 +290,7 @@
     <MESSAGE value="1-31" />
     <MESSAGE value="01-02" />
     <MESSAGE value="02-02" />
-    <option name="LAST_COMMIT_MESSAGE" value="02-02" />
+    <MESSAGE value="02-03" />
+    <option name="LAST_COMMIT_MESSAGE" value="02-03" />
   </component>
 </project>
