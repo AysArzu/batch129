@@ -8,6 +8,45 @@ public class Options extends Account {
 
     DecimalFormat moneyFormat = new DecimalFormat("'$'###,##0.00");
 
+    boolean flag=true;
+
+    public void getAccountTypes(){
+        System.out.println("Select the account you want to access!");
+        System.out.println("1: Checking Account" +
+                "\n2: Saving Account" +
+                "\n3: Quit");
+
+        int option=input.nextInt();
+        switch (option){
+            case 1:
+                System.out.println("You are in checking account");
+                checkingOperations();
+                break;
+            case 2:
+                System.out.println("You are in saving account");
+                savingOperations();
+                break;
+            case 3:
+                flag=false;
+                break; default:
+                System.out.println("Invalid choise please select 1, 2 or 3");
+                getAccountTypes();
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     public void checkingOperations() {
 
         do {
