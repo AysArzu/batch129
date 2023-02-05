@@ -150,6 +150,7 @@ public class Account {
             getSavingDeposit();
         } else {
             calculateSavingBalanceAfterDeposit(amount);
+            System.out.println();
             System.out.println("your saving bvalance is : " + moneyFormat.format(savingBalance));
         }
     }

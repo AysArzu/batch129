@@ -1,14 +1,12 @@
 package day34mapiterators;
 
 import java.awt.*;
-import java.util.ArrayList;
-import java.util.Iterator;
+import java.util.*;
 import java.util.List;
-import java.util.ListIterator;
 
 public class Iterators01 {
     public static void main(String[] args) {
-        /*
+    /*
         Iterator'lar Loop'ların yaptığı işi yapar.
         Iteratorslar tıpkı loop'larda olduğu gibi elemanı alarak işleme sokar.
         Javanın Iterator'ları ortaya çıkarma sebebi infinit Loop riskini bitirmektirr.

@@ -13,21 +13,28 @@ public class EngList01 {
      */
     public static void main(String[] args) {
         Scanner scan= new Scanner(System.in);
+        System.out.print("Input a string: ");
        String input= scan.nextLine().toLowerCase();
-
-        for (int i = 0; i <input.length() ; i++) {
-            int count=0;
-           char c= input.charAt(i);
-            for (int j = 0; j <input.length() ; j++) {
-               if( input.charAt(j)==c){
-                  count++ ;
-                }
-
-            } System.out.print(c+" "+count);
+        int[] charCount = new int[256];
+        for (int i = 0; i < input.length(); i++) {
+            char c = input.charAt(i);
+            charCount[c]++;
         }
 
+        int max = 0;
+        char maxChar = ' ';
+        for (int i = 0; i < 256; i++) {
+            if (charCount[i] > max) {
+                max = charCount[i];
+                maxChar = (char) i;
+            }
+        }
 
-
-       // System.out.println(" maximum occurring character is :");
+        System.out.println("The maximum occurring character is: " + maxChar);
     }
-}
+
+
+
+
+    }
+

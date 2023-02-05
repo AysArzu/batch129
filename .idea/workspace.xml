@@ -5,7 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4af5945d-de09-4c8e-8c8d-1bd7f601bb0b" name="Changes" comment="02-03">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lambda01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lambda02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day36lambda/Lambda02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day36lambda/LambdaTextFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day37lambda/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day37lambda/lambda3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/Map_Soru.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/list/EngList02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/list/EngList03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/list/EngList04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/replit/list/EngList05.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atmproject/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atmproject/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day34mapiterators/Iterators01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day34mapiterators/Iterators01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day36lambda/Lambda001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day36lambda/Lambda001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day36lambda/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day36lambda/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day37lambda/Utilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day37lambda/Utilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day37lambda/lambda1s.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day37lambda/lambda1s.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/replit/list/EngList01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/replit/list/EngList01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,21 +60,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/PROJECTS&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Sistem/Downloads/hospital.rar",
+    "settings.editor.selected.configurable": "preferences.editor"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;module&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "module"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="mentoring" />
@@ -68,13 +85,27 @@
       <recent name="day24accessmodifiersinheritance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EngList01">
-    <configuration name="EngList01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="replit.list.EngList01" />
+  <component name="RunManager" selected="Application.lambda3">
+    <configuration name="Lambda01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lambda01" />
+      <module name="BATCH129" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lambda02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lambda02" />
+      <module name="BATCH129" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day36lambda.Lambda02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day36lambda.Lambda02" />
       <module name="BATCH129" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="replit.list.*" />
+          <option name="PATTERN" value="day36lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForWhile04_Eng" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="replit.ForWhile04_Eng" />
+    <configuration name="lambda1s" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day37lambda.lambda1s" />
       <module name="BATCH129" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="replit.*" />
+          <option name="PATTERN" value="day37lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,38 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForWhile05_Eng" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="replit.ForWhile05_Eng" />
+    <configuration name="lambda3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day37lambda.lambda3" />
       <module name="BATCH129" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="replit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ForWhile06_Eng" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="replit.ForWhile06_Eng" />
-      <module name="BATCH129" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="replit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ForWhile07_Eng" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="replit.ForWhile07_Eng" />
-      <module name="BATCH129" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="replit.*" />
+          <option name="PATTERN" value="day37lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EngList01" />
-        <item itemvalue="Application.ForWhile07_Eng" />
-        <item itemvalue="Application.ForWhile06_Eng" />
-        <item itemvalue="Application.ForWhile05_Eng" />
-        <item itemvalue="Application.ForWhile04_Eng" />
+        <item itemvalue="Application.lambda3" />
+        <item itemvalue="Application.day36lambda.Lambda02" />
+        <item itemvalue="Application.lambda1s" />
+        <item itemvalue="Application.Lambda02" />
+        <item itemvalue="Application.Lambda01" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675502049195</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="02-03">
+      <created>1675503376350</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1675503376350</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

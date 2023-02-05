@@ -6,7 +6,7 @@ public class Utilities {
         System.out.print(n+" ");
     }
     public static void yazString(String s){
-        System.out.println(s+" ");
+        System.out.print(s+" ");
     }
     public static boolean tekMi(int n){
        return n%2!=0;
