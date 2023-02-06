@@ -1,4 +1,4 @@
-package replit;
+package replit.forwhile;
 
 public class ForWhile06_Eng {
     /*

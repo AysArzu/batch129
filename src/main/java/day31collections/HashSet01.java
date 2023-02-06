@@ -15,7 +15,7 @@ i)HashSet: a) süper hızlıdır. çünkü HashSetler verdiğiniz elemanları s�
            b)"HashSet"ler tekrarlı elemana müsaade etmezler.
            c)HashSet'ler sadece 1 tane null'ı eleman olarak kabul ederler.
 
- ii)LinkedHashSet: a) LinkedHashSet elemanları "insertion order"a göre dizer.(giriş sırasına göre)
+ ii)LinkedHashSet: a)LinkedHashSet elemanları "insertion order"a göre dizer.(giriş sırasına göre)
                    b)LinkedHashSet elemanları sıralamakta zaman kaybettiği için HashSet'e göre yavaştır.
                    c)"LinkedHashSet"ler tekrarlı elemana müsaade etmezler.
 iii)TreeSet:a)TreeSet elemanları "natural order"'a göre dizer.

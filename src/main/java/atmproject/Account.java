@@ -87,7 +87,7 @@ public class Account {
 
     //Interact with customer to withdraw money from checking
     public void getCheckingWithdraw() {
-        System.out.println("your checing balance is : " + moneyFormat.format(checkingBalance));
+        System.out.println("your checking balance is : " + moneyFormat.format(checkingBalance));
         System.out.println("Enter the amount you would like to withdraw");
         double amount = input.nextDouble();
 
@@ -122,7 +122,7 @@ public class Account {
 
     public void getSavingWithdraw() {
         System.out.println("Your saving balance is : " + moneyFormat.format(savingBalance));
-        System.out.println("Enter the amount you would lide to wothdraw!");
+        System.out.println("Enter the amount you would lide to withdraw!");
 
         double amount = input.nextDouble();
 
@@ -140,7 +140,7 @@ public class Account {
     public void getSavingDeposit() {
 
         //before transaction we show user their current balance for saving account
-        System.out.println("your saving bvalance is : " + moneyFormat.format(savingBalance));
+        System.out.println("your saving balance is : " + moneyFormat.format(savingBalance));
         System.out.println("Enter the amount you would like to deposite!");
         double amount = input.nextDouble();
 
@@ -151,7 +151,7 @@ public class Account {
         } else {
             calculateSavingBalanceAfterDeposit(amount);
             System.out.println();
-            System.out.println("your saving bvalance is : " + moneyFormat.format(savingBalance));
+            System.out.println("your saving balance is : " + moneyFormat.format(savingBalance));
         }
     }
 }

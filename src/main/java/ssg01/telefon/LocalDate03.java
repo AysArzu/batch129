@@ -4,7 +4,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class dummy1 {
+public class LocalDate03 {
 
         //İki tarih arasındaki farkı bulan metod
         static void tarihFarki(String start_date, String end_date)

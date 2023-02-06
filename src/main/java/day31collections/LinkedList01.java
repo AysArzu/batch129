@@ -99,6 +99,24 @@ bir elemanı bulmak için en baştan bütün elemanlar kontrol edilir, bu da ço
         Returns:the element at the front of this list (which is the top of the stack represented by this list)
 */       names.pop();//Removefirst ile aynı
 
+// 4 haften fazla olan kelimeleri sil
+        LinkedList <String> isimler= new LinkedList<>();
+        isimler.add("Ayse");
+        isimler.add("Steve");
+        isimler.add("Ajda");
+        isimler.add("Megan");
+        isimler.add("Brandon");
+
+        for (int i = 0; i < isimler.size() ; i++) {
+            if(isimler.get(i).length()>4){
+                isimler.remove(isimler.get(i));
+                i--;//index karismasin diye i-- yaptik interview sorusu olabilir!!!
+                    // silerken indexi silmezsek elemani atlar daha fazla elaman olsada yazdirir.!!!!
+            }
+        }
+        System.out.println(isimler);//[Ayse, Ajda]
+
+
 
     }
 }

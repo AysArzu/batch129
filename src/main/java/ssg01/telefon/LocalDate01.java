@@ -5,7 +5,7 @@ import java.time.LocalDate;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class C01  {
+public class LocalDate01 {
 
 
 

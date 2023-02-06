@@ -2,6 +2,7 @@ import day37lambda.Utilities;
 
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 public class Lambda01 {
     public static void main(String[] args) {
@@ -22,6 +23,10 @@ public class Lambda01 {
         elemanlariToplaLambdaExp(sayi);
         System.out.println(pozitifElemanlariCarp(sayi));
         System.out.println(ciftElemanlarinKarewleriniKUcuktenBuyugeSirala(sayi));
+        print1upTo30(30);
+        System.out.println();
+        System.out.println(ortalama(30, 40));//35.0
+        System.out.println(sekizleBolunenler(30,90));//8
     }//SORU1: List elemanlarının çift ve pozitif olanlarını,
 
     // Lambda Expression kullanarak aralarında bosluk olacak sekilde yazdırın
@@ -79,4 +84,17 @@ public class Lambda01 {
                 collect(Collectors.toList());
     return sonuc;
     }/** collectors.toList() liste cevirir!!!*/
+    // 1 den 30 a kadar sayilari loop kullanmadan yaziniz==> 1 2 3....
+    // range(int startInclusive int endExclusive
+    public static void print1upTo30(int a){
+        IntStream.range(1,a).forEach(Utilities::yazInt);
+    }
+    // iki sayi arasindaki ortalamayi bulan methodu yaziniz
+    public static OptionalDouble ortalama(int a, int b){
+       return IntStream.rangeClosed(a,b).average();
+    }
+    //iki sayi arasindaki 8 ile bolunebilen sayilari bulunuz
+    public static long sekizleBolunenler(int a, int b){
+       return IntStream.rangeClosed(a, b).filter(t->t%8==0).count();
+    }
 }

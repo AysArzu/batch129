@@ -3,9 +3,8 @@ package ssg01.telefon;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.Scanner;
 
-public class Offf {
+public class LocalDate04 {
 
     //İki tarih arasındaki farkı bulan metod
     static void tarihFarki(String start_date, String end_date)

@@ -13,7 +13,7 @@ public class HashMaps01 {
 3)"USA =400,000,000 datasinin "400,000,000"  kismi "value" olarak adlandirilir ve "value"lar tekrarli olabilir
 4)Map'lerde depoladiginiz her bir depoya "Entry" denir eleman denmez.
 5)"Entry"ler "unique" dir cunku key kisimlari unique oldugundan her bir entry digerlerinden farklidir.
-6)"Hashmap"ler cok hizlidir cunku "HashMap'ler" "entry"leri siralama ile ugrasmazlar
+6)"Hashmap"ler cok hizlidir cunku "HashMap'ler" "entry"leri siralama ile ugrasmazlar, entryleri Random siralar
 7)"HashMap"ler de bir tane "key"i "null" yapabilirsiniz.
 8) "HashMap"lerde birden fazla value yi "null" yapabilirsiniz.
 9)HashMap'ler "multi Thread" icin kullanilamaz. (ayni anda bircok isi yapmak)ve
@@ -56,7 +56,7 @@ public class HashMaps01 {
             }
         }
         System.out.println(sum);
-//"HashMap"lerde belirli bir key'in value'sini nasil aliriz?
+       //"HashMap"lerde belirli bir key'in value'sini nasil aliriz?
         Integer usaPopulation = hm.get("USA");
         System.out.println(usaPopulation);//usa nin populationunu verir  400000000)
 
@@ -89,25 +89,26 @@ public class HashMaps01 {
             salaries.putIfAbsent(teacherName, 11000);
         }
         System.out.println(salaries);//{Tom=12000, Veli=9000, Ayse=5000, Ali=8000}
-
+//replace () methodu ile==> value yu update ederiz 2 li de olabilir ("USA",500000000) gibi
 //replace("USA",400000000,500000000) methodu key USA ve value 400000000 iken 500000000 yapar
         hm.replace("USA", 400000000, 500000000);
         System.out.println(hm);//{null=1000000, USA=500000000, Bhutan=35000000, Albenian=2800000, Mynmar=null, Germany=83000000, India=700000000}
 
 //getOrDefault() olan "key"lerin degerini verir, olmayan "key"ler icin de sizin ikinci parametreye yazdiginiz degeri verir
-        Integer r= hm.getOrDefault("Bhutan", 0);// gitti varsa degerini dondu
+        Integer r= hm.getOrDefault("Batuhan", 0);// gitti varsa degerini dondu
         System.out.println(r);
 
-
+        //remove("USA") dersek USA yi siler
+        // eger silinecek entry yoksa hicbirseyi silmez calisir ve normal Map i yazar
         //putAll() iki map i birlestirirken kullanilir. size() eleman sayisini verir
 
-//        //entrySet() methodu herbir entry'yi set'in icinde verir.
-//        setlerin methodlarini kullanabilmek icin Map'i entrySet() methodunu kullanarak Map'i set'e cevirebiliriz.
-        Set<Map.Entry<String ,Integer>> myEntries=hm.entrySet();
+          //entrySet() methodu herbir entry'yi set'in icinde verir.
+         //setlerin methodlarini kullanabilmek icin Map'i entrySet() methodunu kullanarak Map'i set'e cevirebiliriz.
+        Set<Map.Entry<String ,Integer>> myEntries=hm.entrySet();//Syntax bu!!!
         System.out.println(myEntries);//[null=1000000, USA=500000000, Bhutan=35000000, Albenian=2800000, Mynmar=null, Germany=83000000, India=700000000]
         // Map'i Set e cevirdik
         //Map i Set e cevirdigimizde setin tum ozelliklerini kullanabiliriz mesela loop gibi.
-      //  entrySet() methodunu kullandiginizda elde ettiginiz setin elemanlari Map.Entry<String, Integer> seklinde bir "Map "olur.
+        //entrySet() methodunu kullandiginizda elde ettiginiz setin elemanlari Map.Entry<String, Integer> seklinde bir "Map "olur.
         //  Bu yuzden elemanlar icin Map methodlari kullanilabilir.
 
 

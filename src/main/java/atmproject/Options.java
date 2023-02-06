@@ -1,6 +1,8 @@
 package atmproject;
 
 import java.text.DecimalFormat;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 public class Options extends Account {
@@ -8,16 +10,66 @@ public class Options extends Account {
 
     DecimalFormat moneyFormat = new DecimalFormat("'$'###,##0.00");
 
-    boolean flag=true;
+    Map<Integer, Integer> data = new HashMap<Integer, Integer>();
 
-    public void getAccountTypes(){
+    boolean flag = true;
+
+
+    public void login() {
+        System.out.println("Welcome to ARZU Atm");
+        do {
+            int counter = 0;
+            data.put(12345, 1234);
+            data.put(23456, 2345);
+            data.put(34567, 3456);
+            data.put(45678, 4567);
+            try {
+                System.out.println("Enter the account number");
+                setAccountNumber(input.nextInt());
+                System.out.println("Enter the pin number");
+                setPinNumber(input.nextInt());
+
+            } catch (Exception e) {
+                System.out.println("You entered invalid character(s)!");
+                System.out.println("Please provide and integer to proceed or press Q to quit the system.");
+                String exist = input.nextLine();
+                if (exist.equalsIgnoreCase("q")) {
+                    flag = false;
+                }
+                e.printStackTrace();
+            }
+            int count = 0;
+            for (Map.Entry<Integer, Integer> w : data.entrySet()) {
+                if (w.getKey().equals(getAccountNumber()) && w.getValue().equals(getPinNumber())) {
+                    getAccountTypes();//you can start your actions with any account
+                } else {
+                    count++;
+                }
+            }
+            if (count == data.size()) {
+                System.out.println("Account number or pin number is invalid");
+                System.out.println("Press any integer to proceed or press q to quit");
+                String exit = input.nextLine();
+                if (exit.equalsIgnoreCase("q")) {
+                    flag = false;
+                }
+            }
+            if (count == 3) {
+                System.out.println("Your account has been blocked!!");
+                flag = false;
+            }
+        } while (flag);
+    }
+
+
+    public void getAccountTypes() {
         System.out.println("Select the account you want to access!");
         System.out.println("1: Checking Account" +
                 "\n2: Saving Account" +
                 "\n3: Quit");
 
-        int option=input.nextInt();
-        switch (option){
+        int option = input.nextInt();
+        switch (option) {
             case 1:
                 System.out.println("You are in checking account");
                 checkingOperations();
@@ -27,24 +79,13 @@ public class Options extends Account {
                 savingOperations();
                 break;
             case 3:
-                flag=false;
-                break; default:
-                System.out.println("Invalid choise please select 1, 2 or 3");
+                flag = false;
+                break;
+            default:
+                System.out.println("Invalid choice please select 1, 2 or 3");
                 getAccountTypes();
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     public void checkingOperations() {
@@ -58,7 +99,7 @@ public class Options extends Account {
             switch (option) {
 
                 case 1:
-                    System.out.println("yourchecking balance is : " + moneyFormat.format(getCheckingBalance()));
+                    System.out.println("your checking balance is : " + moneyFormat.format(getCheckingBalance()));
                     break;
                 case 2:
                     getCheckingWithdraw();
@@ -74,7 +115,9 @@ public class Options extends Account {
         } while (true);
 
 
-    }public void savingOperations() {
+    }
+
+    public void savingOperations() {
 
         do {
             optionMessages();
@@ -94,18 +137,18 @@ public class Options extends Account {
                     break;
                 default:
                     System.out.println("Invalid option, please select 1, 2, 3, 4");
-
-
             }
-
-
         }
         while (true);
 
-    }public void optionMessages(){
+    }
+
+    public void optionMessages() {
 
         System.out.println("Select Options: ");
-        System.out.println("1:View the balance\n2:Withdraw\3:Deposit\n4:Exit");
+        System.out.println("1:View the balance\n2:Withdraw\n3:Deposit\n4:Exit");
 
     }
+
+
 }

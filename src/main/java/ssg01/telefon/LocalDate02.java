@@ -1,10 +1,9 @@
 package ssg01.telefon;
 
 import java.time.*;
-import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
-public class Dummy {
+public class LocalDate02 {
     public static void main(String[] args) {
         //burayi olustur
         Scanner scan = new Scanner(System.in);
