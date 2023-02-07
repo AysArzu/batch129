@@ -5,7 +5,7 @@ public class Student {
    Access Modifier
    1)public     2)protected
    3)default (Access Modifier'i default yapmak icin access modifier yazmayiz)
-   yazarsan kizar
+   yazarsan kizar.Diger adi package private'dir
    4)private
 
    Note: Access Modifier'lari genisden dara dogru sayiniz
@@ -15,7 +15,7 @@ public class Student {
          protected olanlar baska package'lerden kullanilamaz
          ancak baska package'de "child class" icinden kullanilabilir
          default olanlar baska package'den kullanilamazlar
-         private olanlar sadece olsturulduklari Class icinde kullanilabilirler
+         private olanlar sadece olusturulduklari Class icinde kullanilabilirler
    Note: "protected" ile "default" un farkini soyleyiniz.
          protected olanlar baska package'lerden kullanilamaz ancak
          baska package'de "child class" icinden kullanilabilir
@@ -25,7 +25,7 @@ public class Student {
 */
 
     //public her classtan kullanılabilir.
-    public String stdName = "Ebubekir Can";
+    public String stdName = "Ebubekir Battal";
 
     //protected olanlar sadece child classlardan görülür.
     protected String stdAdress = "Istanbul";
