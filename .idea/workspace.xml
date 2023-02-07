@@ -4,42 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4af5945d-de09-4c8e-8c8d-1bd7f601bb0b" name="Changes" comment="02*05">
-      <change afterPath="$PROJECT_DIR$/src/main/java/denemelerim/sorukitapcigi/Lists/List04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/denemelerim/sorukitapcigi/Lists/List05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/denemelerim/sorukitapcigi/Lists/List06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/denemelerim/sorukitapcigi/Lists/List07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/denemelerim/sorukitapcigi/Lists/List08.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/denemelerim/sorukitapcigi/Lists/List09.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/denemelerim/sorukitapcigi/Lists/List10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/denemelerim/sorukitapcigi/Lists/List11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/denemelerim/sorukitapcigi/Sets/Sets01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/denemelerim/sorukitapcigi/Sets/Sets02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/denemelerim/sorukitapcigi/Sets/Sets03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/denemelerim/sorukitapcigi/Sets/Sets04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/denemelerim/sorukitapcigi/Sets/Sets05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/denemelerim/sorukitapcigi/maps/Maps01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/denemelerim/sorukitapcigi/maps/Maps02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/denemelerim/sorukitapcigi/maps/Maps03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lambda01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lambda01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atmproject/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atmproject/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atmproject/Options.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atmproject/Options.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atmproject/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atmproject/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day31collections/HashSet01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day31collections/HashSet01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day31collections/LinkedList01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day31collections/LinkedList01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day33maps/HashMaps01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day33maps/HashMaps01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day34mapiterators/HashMapMechanism.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day34mapiterators/HashMapMechanism.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day34mapiterators/HashTable01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day34mapiterators/HashTable01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/replit/ForWhile04_Eng.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/replit/forwhile/ForWhile04_Eng.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/replit/ForWhile05_Eng.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/replit/forwhile/ForWhile05_Eng.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/replit/ForWhile06_Eng.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/replit/forwhile/ForWhile06_Eng.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/replit/ForWhile07_Eng.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/replit/forwhile/ForWhile07_Eng.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ssg01/telefon/C01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ssg01/telefon/LocalDate01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ssg01/telefon/Dummy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ssg01/telefon/LocalDate02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ssg01/telefon/Offf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ssg01/telefon/LocalDate04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ssg01/telefon/dummy1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ssg01/telefon/LocalDate03.java" afterDir="false" />
-    </list>
+    <list default="true" id="4af5945d-de09-4c8e-8c8d-1bd7f601bb0b" name="Changes" comment="02*06" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -318,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675594308175</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="02*06">
+      <created>1675717327286</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1675717327286</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -345,6 +317,7 @@
     <MESSAGE value="02-02" />
     <MESSAGE value="02-03" />
     <MESSAGE value="02*05" />
-    <option name="LAST_COMMIT_MESSAGE" value="02*05" />
+    <MESSAGE value="02*06" />
+    <option name="LAST_COMMIT_MESSAGE" value="02*06" />
   </component>
 </project>
