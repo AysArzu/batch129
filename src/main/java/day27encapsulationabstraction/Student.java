@@ -6,14 +6,14 @@ public class Student {
     private double gpa = 3.99;
     private boolean poor = true;
 
-    //Encapsulation yapilmis data'yi okuyabilir miyiz?
-    //get method'lar(getter) encapsule edilmis(saklanmis) data'yi okumamiza yarar
-    //get method'lar(getter) her zaman "public" olur
-    //get method'larin(getter) return type'i variable'in data type'i ile ayni olur.
-    //get method'larin(getter) isimleri "get + variable name" seklinde olur.
-    //get method'larin(getter) isimleri variable boolean ise
-    // "is + variable name" seklinde olur.
-    //get method'lar(getter) parametre kullanmazlar.
+   /* Encapsulation yapilmis data'yi okuyabilir miyiz?
+    get method'lar(getter) encapsule edilmis(saklanmis) data'yi okumamiza yarar
+    get method'lar(getter) her zaman "public" olur
+    get method'larin(getter) return type'i variable'in data type'i ile ayni olur.
+    get method'larin(getter) isimleri "get + variable name" seklinde olur.
+    get method'larin(getter) isimleri variable boolean ise
+     "is + variable name" seklinde olur.
+    get method'lar(getter) parametre kullanmazlar.*/
     public String getStdId() {
         return stdId;
     }

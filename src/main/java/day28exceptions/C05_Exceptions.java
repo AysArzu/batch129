@@ -5,7 +5,7 @@ public class C05_Exceptions {
         /*
         5)AritmetikExceptions
          */
-        //
+
        divide2(6, 0);
         divide2(0, 6);
       //  divide(6, 2);//3

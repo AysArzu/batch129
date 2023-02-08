@@ -37,13 +37,13 @@ public class C01_Exceptions {
          17)String'in değeri null olduğunda String Class'taki bazı methodları kullanamayız. Kullanırsanız "Java NullPointerException" atar.
          18 Birbirine dönüştürülemeyecek data type'larini dönüştürmekte ısrar ederseniz Java "ClassCastException" verir.
            Mesela Object olarak tanımladığımız rakamı String'e çevirmekte ısrar edersek bu hatayı atar.
-           Bu class bu class'a dönüştürülemez demek ister. her data type'i her data type'ına çevrilemez.
+           Bu class bu class'a dönüştürülemez demek ister. Her data type'i her data type'ına çevrilemez.
                 */
         /*
         1) NumberFormatException
          */ //bir stringi alıp int 'a  çeviren kodu yazınız
 
-        String str = "123";//positive senario
+        String str = "123";//positive scenario
         int result = convertToStringToInteger(str);//Stringi integer e çevir methodu
         System.out.println("result = " + (result+5));
 
