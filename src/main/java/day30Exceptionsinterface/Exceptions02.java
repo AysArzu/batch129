@@ -3,8 +3,8 @@ package day30Exceptionsinterface;
 public class Exceptions02 {
     public static void main(String[] args) {
 /*
-    Isim ne kadar genelse o kadar paranttir
-    Eger specific bir cozum uretmek istiyorsak ayri ayri exception firlatmak gerek yoksa parenti yazip geceriz
+    Isim ne kadar genelse o kadar parent'tir
+    Eger specific bir cozum uretmek istiyorsak ayri ayri exception firlatmak gerek yoksa parent'i yazip geceriz
 
         Java'da "Throwable" diye bir Class var.
         Object Class, Throwable'in parent'idir.

@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4af5945d-de09-4c8e-8c8d-1bd7f601bb0b" name="Changes" comment="02*07">
+    <list default="true" id="4af5945d-de09-4c8e-8c8d-1bd7f601bb0b" name="Changes" comment="02">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day27encapsulationabstraction/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day27encapsulationabstraction/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day28exceptions/C01_Exceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day28exceptions/C01_Exceptions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day28exceptions/C05_Exceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day28exceptions/C05_Exceptions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day29exceptions/Exceptions01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day29exceptions/Exceptions01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day29exceptions/C04_Exceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day29exceptions/C04_Exceptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day29exceptions/Exceptions03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day29exceptions/Exceptions03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day30Exceptionsinterface/AC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day30Exceptionsinterface/AC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day30Exceptionsinterface/Exceptions02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day30Exceptionsinterface/Exceptions02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day30Exceptionsinterface/InvalidNumberException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day30Exceptionsinterface/InvalidNumberException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day31collections/HashSet01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day31collections/HashSet01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day31collections/LinkedList01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day31collections/LinkedList01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -317,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675800725019</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="02">
+      <created>1675871687167</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1675871687167</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -346,6 +356,7 @@
     <MESSAGE value="02*05" />
     <MESSAGE value="02*06" />
     <MESSAGE value="02*07" />
-    <option name="LAST_COMMIT_MESSAGE" value="02*07" />
+    <MESSAGE value="02" />
+    <option name="LAST_COMMIT_MESSAGE" value="02" />
   </component>
 </project>

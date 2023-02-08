@@ -3,7 +3,7 @@ package day31collections;
 import java.util.LinkedList;
 import java.util.List;
 
-public class LinkedList01 {
+public class  LinkedList01 {
 
 /*
 1)Interface'lerden object oluşturulamaz çünkü interface'lerin constructorları yoktur.

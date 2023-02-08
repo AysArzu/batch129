@@ -9,7 +9,7 @@ public class  HashSet01 {
  1)"Hash" bir tekniktir, Java bu teknigi kullanarak unique (benzersiz) datalar uretir.
  2)"Set" tekrarsiz data depolamak icin kullanilan bir Collection'dir.
  3)Set tekrar kabul etmez. Yani; tekrarsiz verileri depolamak icin kullanilir.
-"Set"ler 3 e ayrılır
+ "Set"ler 3 e ayrılır
 i)HashSet: a) süper hızlıdır. çünkü HashSetler verdiğiniz elemanları sıralamak için zaman kaybetmez.
                yani HashSetlere eklenen elemanlar rastgele sıralanırlar.
            b)"HashSet"ler tekrarlı elemana müsaade etmezler.
@@ -18,7 +18,7 @@ i)HashSet: a) süper hızlıdır. çünkü HashSetler verdiğiniz elemanları s�
  ii)LinkedHashSet: a)LinkedHashSet elemanları "insertion order"a göre dizer.(giriş sırasına göre)
                    b)LinkedHashSet elemanları sıralamakta zaman kaybettiği için HashSet'e göre yavaştır.
                    c)"LinkedHashSet"ler tekrarlı elemana müsaade etmezler.
-iii)TreeSet:a)TreeSet elemanları "natural order"'a göre dizer.
+ iii)TreeSet:a)TreeSet elemanları "natural order"'a göre dizer.
             b)TreeSet "natural order" yaparken çok zaman harcar. O yüzden en yavaş "Set"'tir.
             c)"TreeSet"ler tekrarlı elemana müsaade etmezler.
 

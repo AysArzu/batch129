@@ -9,7 +9,8 @@ import java.io.IOException;
       IOException tüm input ve output işlemleri ile ilgilidir.
     3)IOException Class, FileNotFoundException Class'ın parenti dir.
     4)istenirse FileNotException yerine IOException kullanılabilir.
-    5)IOException Class ve FileNotFoundException beraber kullanılacaksa FileNotFoundException ustte IOException altta kullanılmalıdır.
+    5)IOException Class ve FileNotFoundException beraber kullanılacaksa
+    FileNotFoundException ustte IOException altta kullanılmalıdır.
  */
 public class Exceptions03 {
     public static void main(String[] args)  {

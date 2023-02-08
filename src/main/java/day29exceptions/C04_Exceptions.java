@@ -3,7 +3,7 @@ package day29exceptions;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class C04_Exceptions {
+public class  C04_Exceptions {
     public static void main(String[] args) {
 /*
    8) InputMisMatchExceptions
