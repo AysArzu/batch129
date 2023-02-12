@@ -37,7 +37,7 @@ public class Lambda02 {
                  anyMatch(t->t.contains("Java"));// herhangi biri Java ise sonuc true olur
         System.out.println(result);//true
 
-    //4LambdaTextFile dosyasi icindeki her kelimenin "a" icerip icermedigini gosteren kodu yaziniz
+    //4)LambdaTextFile dosyasi icindeki her kelimenin "a" icerip icermedigini gosteren kodu yaziniz
         boolean result2=  Files.
                 lines(Paths.get("src/main/java/day36lambda/LambdaTextFile.txt")).
                 map(t->t.split(" ")).
@@ -45,7 +45,7 @@ public class Lambda02 {
                        allMatch(t->t.contains("a"));//
         System.out.println(result2);//Her kelime a harfini iceriyorsa sonuc true olur aksi halde false olur. false cikti
 
-//5)LambdaTextFile dosyasi icindeki her kelimenin "x"  icermedigini dosteren dodu yaziniz
+//5)LambdaTextFile dosyasi icindeki her kelimenin "x"  icermedigini gosteren kodu yaziniz
 
         boolean result3=Files.lines(Paths.get("src/main/java/day36lambda/LambdaTextFile.txt")).
                 map(t->t.split(" ")).flatMap(Arrays::stream).

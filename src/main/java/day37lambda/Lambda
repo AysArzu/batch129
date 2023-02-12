@@ -68,7 +68,7 @@ ForEach:
   Akışın karşılaşma sırası yoksa herhangi bir öğe iade edilebilir. Optional return eder.
 
 
-  // Arraylerde Stream kullanabilmek icin 2 yol vardir
+ Arraylerde Stream kullanabilmek icin 2 yol vardir
 
   1) Stream <Integer> isim=StreamOf(cevrilecek olan)
   2) Arrays.stream(arr).

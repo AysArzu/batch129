@@ -6,10 +6,10 @@ import java.util.Hashtable;
 public class HashTable01 {
     public static void main(String[] args) {
 
-        /**32. Session Java Hashtable TreeMap 1910   19.dk da kaldim  */
+
       /*1)HashTable "thread-safe" ve "synchronized"dir.
-        2)HashTable entryleri rastgele siralar.
-        3)"HashTable" lar "HashMap"lere gore daha yavastirlar
+        2)HashTable entry'leri rastgele siralar.
+        3)HashTable'lar HashMap'lere gore daha yavastirlar
         4)HashTable" key"lerde ve" value"larda "null" kullanilmasina musaade etmezler.
 
         Note:i) "multi thread" ve synchronization kullanmaniz gerekirse ve

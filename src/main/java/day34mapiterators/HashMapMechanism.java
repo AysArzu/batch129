@@ -24,7 +24,7 @@ public class HashMapMechanism {
 
         System.out.println(hm);//{New Delhi=31000000, Istanbul=17000000, Moscow=1800000, Miami=5000000}
 
-//hashmapler her bir index icin linkedlist kullanir. bu da StringBuilder gibi 16 kutusu var her kutucuga Bucket denir.
+//hashmapler her bir index icin linkedlist kullanir. Bunun da StringBuilder gibi 16 kutusu var her kutucuga Bucket denir.
 // linkedlistte bulmak zordu yan yana gidiyordu bu 16 ya boler ve ona gore kalan sayiyi index yapar ustuste gelince linked list gibi yan yana ekler
     }
 }

@@ -69,7 +69,7 @@ public class Lambda001 {
     public static void printAllSortWithLengthUpperDistinct(List<String> list) {
         list.stream().distinct().
                 map(t -> t.toUpperCase()).
-                sorted(Comparator.comparing(t -> t.length())).
+                sorted(Comparator.comparing(t -> t.length())).//uzunluguna gore sıraladı
                 forEach(t -> System.out.print(t + " "));//TOM JOHN AJDA BRAD CUNEYT ANGELINA
 
     }//5)Tum list elemanlarini buyuk harfle son harflerine gore artan sirada ve tekrarsiz olarak yazdiriniz
@@ -112,7 +112,7 @@ public class Lambda001 {
         //Bazen stream()"methodu bize lazim olan methodlara ulasmamiza engel olur bu yuzden stream methodunu kullanmayiz
         //removeif() methodunda oldugu gibi
 
-        //Fakar stream() methodunu daha sonradan kullanmamiz gerekebilir. Bu durumda stream() methodunu kullanarak
+        //Fakat stream() methodunu daha sonradan kullanmamiz gerekebilir. Bu durumda stream() methodunu kullanarak
         // istedigimiz methodlara ulasiriz, distinct() methoduna ulastigimiz gibi.
         //Sonuc bize list olarak lazimsa "collect(Collectors.toList())" ile sonucu List"e ceviririz.
 

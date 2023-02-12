@@ -98,7 +98,7 @@ public class Lambda01 {
                 stream().
                 filter(t -> t % 2 == 0).
                 forEach(t -> System.out.print(t + " ")); //12 14 10 4 12  oldu
-        //Bu formatta yazilir
+
     }
 
     //5)Create a method to print the square of odd list elements on the console in the same
@@ -125,18 +125,25 @@ public class Lambda01 {
     }
 
     //7)Create a method to calculate the "sum" of the "squares" of "distinct" "even" elements
-//reduce() methodu cok olan rakamlari tek rakama indirirken kullanilir ingilizcede dusurmek demek azalttik yani
+//reduce() methodu cok olan rakamlari tek rakama indirirken kullanilir ingilizcede dusurmek demek, yani azalttik
     public static void printSumOfSquaresOfDistinctEvenElements(List<Integer> nums) {
 
-        Integer sum = nums.stream().distinct().filter(t -> t % 2 == 0).
-                            map(t -> t * t).reduce(0, (t, u) -> t + u);
+        Integer sum = nums.stream().
+                distinct().
+                filter(t -> t % 2 == 0).
+                 map(t -> t * t).
+                reduce(0, (t, u) -> t + u);
         System.out.println(sum);
     }// bir degeri yazdirmak icin for each kurulmaz bir container'e koyar oyle yazdiririz.
 
 //8)Create a method to calculate the "product" of the "square" of "distinct" "even" elements
 
     public static void printProductOfSquareOfDistinctEvenElements(List<Integer> nums) {
-        Integer product = nums.stream().distinct().filter(t -> t % 2 == 0).map(t -> t * t).reduce(1, (t, u) -> t * u);
+        Integer product = nums.stream().
+                distinct().
+                filter(t -> t % 2 == 0).
+                map(t -> t * t).
+                reduce(1, (t, u) -> t * u);
         System.out.println(product);
     }
 
@@ -145,12 +152,17 @@ public class Lambda01 {
     //Maximum degeri ararken Integer.MIN_VALUE kullanmak genel pratiktir.
     //Minimum degeri ararken Integer.MAX_VALUE kullanmak genel pratiktir.
     public static void getMaxValue(List<Integer> nums) {
-        Integer max = nums.stream().distinct().reduce(Integer.MIN_VALUE, (t, u) -> t > u ? t : u);
+        Integer max = nums.
+                stream().
+                distinct().
+                reduce(Integer.MIN_VALUE, (t, u) -> t > u ? t : u);
         System.out.println(max);
     }//2.Yol bu yol daha zorlar Javayi get(0) bulmaya ugrasir.
 
     public static void getMaxValue2(List<Integer> nums) {
-        Integer max1 = nums.stream().distinct().reduce(nums.get(0), (t, u) -> t > u ? t : u);
+        Integer max1 = nums.stream().
+                distinct().
+                reduce(nums.get(0), (t, u) -> t > u ? t : u);
         System.out.println(max1);
     }
 
@@ -163,13 +175,18 @@ public class Lambda01 {
     //10)Create a method to find the minimum value from the list elements
     //1.Yol
     public static void getMinValue1(List<Integer> nums) {
-        Integer min = nums.stream().distinct().reduce((t, u) -> t > u ? u : t).get();
+        Integer min = nums.stream().
+                distinct().
+                reduce((t, u) -> t > u ? u : t).get();
         System.out.println(min);
 //2.Yol
     }
 
     public static void getMinValue2(List<Integer> nums) {
-        Integer min2 = nums.stream().distinct().sorted(Comparator.reverseOrder()).reduce((t, u) -> u).get();
+        Integer min2 = nums.stream().
+                distinct().
+                sorted(Comparator.reverseOrder()).
+                reduce((t, u) -> u).get();
         System.out.println(min2);
     }//3.Yol
 
@@ -180,7 +197,8 @@ public class Lambda01 {
     }//4.Yol
 
     public static void getMinValue4(List<Integer> nums) {
-        Integer min4 = nums.stream().distinct().reduce((t, u) -> Math.min(t, u)).get();
+        Integer min4 = nums.stream().distinct().
+                reduce((t, u) -> Math.min(t, u)).get();
         System.out.println(min4);
     }
 

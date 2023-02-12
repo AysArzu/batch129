@@ -3,10 +3,10 @@ package day34mapiterators;
 public class UsStatesRunner {
     public static void main(String[] args) {
       String arizonaAbbr=  UsStates.ARIZONA.getAbbreviation();
-        System.out.println(arizonaAbbr);
+        System.out.println(arizonaAbbr);//AZ
 
         UsStates arizona= UsStates.ARIZONA;
-        System.out.println(arizona);
+        System.out.println(arizona);//ARIZONA
 
         /*
        i) Enum bir data deposudur.

@@ -131,7 +131,7 @@ import java.util.List;
         public static void printEvenElements2(List<Integer> nums){
             nums.//12 9 131 14 9 10 4 12 15
                     stream().
-                    filter(t->t%2==0).//elemanlari secer
+                    filter(t->t%2==0).//cift elemanlari secer
                     forEach(t-> System.out.print(t + " "));
         }
 
@@ -169,8 +169,8 @@ import java.util.List;
                     stream().
                     distinct().
                     filter(t->t%2==0).//ciftleri secti
-                            map(t->t*t).//varolani degistirir set methodu gibi
-                            reduce(0, (t, u)->t+u);
+                    map(t->t*t).//varolani degistirir set methodu gibi
+                    reduce(0, (t, u)->t+u);
             System.out.println(sum);
         }
 
@@ -235,7 +235,7 @@ import java.util.List;
 
         //11)Create a method to find the minimum value which is greater than 7 and even from the list
         //   12 9 131 14 9 10 4 12 15 ==> 10 <-- 7 den buyuk en kucuk cift sayi
-        public static void getMinGreaterThanSevenEven(List<Integer> nums){// Yediden Büyük Min olsun
+        public static void getMinGreaterThanSevenEven(List<Integer> nums){// Yediden Büyük cift ve Min
             Integer min = nums.
                     stream().
                     filter(t->t>7 && t%2==0).

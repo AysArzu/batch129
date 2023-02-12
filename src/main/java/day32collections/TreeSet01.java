@@ -38,7 +38,7 @@ public class TreeSet01 {
         int first = ts.first();
         System.out.println(first);//3 ilk eleman
 
-        int last = ts.first();
+        int last = ts.last();
         System.out.println(last);//32 son eleman
 
         int floor1 = ts.floor(15);
@@ -63,7 +63,7 @@ public class TreeSet01 {
 
 
         NavigableSet<Integer> tailSet3 = ts.tailSet(12, false);// 12 olsa da yazdirma demek
-        System.out.println(tailSet3);//[25, 32] 12 elemanlardan biri normalde 12 ve sonraki elemanlar bir Set icinde yazdirilirdi
+        System.out.println(tailSet3);//[25, 32] 12 elemanlardan biri normalde 12 den sonraki elemanlar bir Set icinde yazdirilirdi
         //ama ben ikinci parametrelerde false kulladigim icin 12 haric tutuldu.
 
         //Generic Method: Normal methodlar parametrelerde belirtilen data type'lari ile calisirlar.

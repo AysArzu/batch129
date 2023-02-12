@@ -17,8 +17,9 @@ public class HashMaps01 {
 7)"HashMap"ler de bir tane "key"i "null" yapabilirsiniz.
 8) "HashMap"lerde birden fazla value yi "null" yapabilirsiniz.
 9)HashMap'ler "multi Thread" icin kullanilamaz. (ayni anda bircok isi yapmak)ve
-"synchronization" yoktur bircok isin siraya konmasi
-
+"synchronization" yoktur bircok isin mantikli siraya konmasi
+10)Siralama randomdur
+11)Ayni key'i kullanarak yeni bir "entry" eklerseniz var olan "value"u update etmis olursunuz.
 
  */
         //HashMap nasil olusturulur
@@ -41,7 +42,7 @@ public class HashMaps01 {
         hm.put("Bhutan", null);
         System.out.println(hm);//{null=1000000, USA=400000000, Bhutan=null, Albenian=2800000, Mynmar=null, Germany=83000000}
 
-        //HashMap"ler sadece "key"leri almak istiyorum
+        //HashMap"lerde sadece "key"leri almak istiyorum. Setler tekrarsiz oldugu icin Set'e yaziyoruz
         Set<String> hmKeys = hm.keySet();
         System.out.println("hmKeys = " + hmKeys);//hmKeys = [null, USA, Bhutan, Albenian, Mynmar, Germany]
 
@@ -60,7 +61,7 @@ public class HashMaps01 {
         Integer usaPopulation = hm.get("USA");
         System.out.println(usaPopulation);//usa nin populationunu verir  400000000)
 
-        hm.replace("Bhutan", 35000000);//replace() methodu varolan bir "key"in value"sini degistirmek icin kullanilir
+        hm.replace("Bhutan", 35000000);//replace() methodu varolan bir "key"in value"sunu degistirmek icin kullanilir
         System.out.println(hm);//{null=1000000, USA=400000000, Bhutan=35000000, Albenian=2800000, Mynmar=null, Germany=83000000}
 
         hm.putIfAbsent("USA", 700000000);//yoksa koyar varsa var olana dokunmaz
@@ -101,15 +102,16 @@ public class HashMaps01 {
         //remove("USA") dersek USA yi siler
         // eger silinecek entry yoksa hicbirseyi silmez calisir ve normal Map i yazar
         //putAll() iki map i birlestirirken kullanilir. size() eleman sayisini verir
+        //containsKey() boolean verir key de var mi yok mu?
 
-          //entrySet() methodu herbir entry'yi set'in icinde verir.
-         //setlerin methodlarini kullanabilmek icin Map'i entrySet() methodunu kullanarak Map'i set'e cevirebiliriz.
+        //entrySet() methodu herbir entry'yi set'in icinde verir.
+        //Setlerin methodlarini kullanabilmek icin Map'i entrySet() methodunu kullanarak Map'i set'e cevirebiliriz!!
         Set<Map.Entry<String ,Integer>> myEntries=hm.entrySet();//Syntax bu!!!
         System.out.println(myEntries);//[null=1000000, USA=500000000, Bhutan=35000000, Albenian=2800000, Mynmar=null, Germany=83000000, India=700000000]
-        // Map'i Set e cevirdik
-        //Map i Set e cevirdigimizde setin tum ozelliklerini kullanabiliriz mesela loop gibi.
-        //entrySet() methodunu kullandiginizda elde ettiginiz setin elemanlari Map.Entry<String, Integer> seklinde bir "Map "olur.
-        //  Bu yuzden elemanlar icin Map methodlari kullanilabilir.
+        // Map'i Set'e cevirdik
+        //Map'i Set'e cevirdigimizde setin butun ozelliklerini kullanabiliriz. Mesela loop gibi.
+        //entrySet(); methodunu kullandiginizda elde ettiginiz setin elemanlari "Map.Entry<String, Integer>" seklinde bir "Map "olur.
+        //Bu yuzden elemanlar icin Map methodlari kullanilabilir.
 
 
         //Example3: Ulke icindeki character sayisini ulke nufusuna ekleyen ve sonucu console yazdiran kodu yaziniz

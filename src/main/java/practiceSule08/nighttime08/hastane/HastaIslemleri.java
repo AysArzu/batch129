@@ -1,8 +1,14 @@
 package practiceSule08.nighttime08.hastane;
 
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.Set;
 
-public class HastaIslemleri {
+public class HastaIslemleri extends DataBank {
     static Scanner scan = new Scanner(System.in);
     static Map<Integer, String> hastaListesiMap = new HashMap<>();
 
@@ -29,36 +35,47 @@ public class HastaIslemleri {
                 "\t  6- ANA MENU\n" +
                 "\t  7-CIKIS");
 
-        int secim = scan.nextInt();
+        String secim = scan.nextLine();
+        if (secim.length() != 1) {
+            System.out.println("Lutfen menudeki rakamlardan birini giriniz");
+            hastaMenusu();
+        }
+        boolean a = secim.contains("1") || secim.contains("2") || secim.contains("3") || secim.contains("4") || secim.contains("5") || secim.contains("6") || secim.contains("7");
+
+        if (!a) {
+            System.out.println("Lutfen menudeki rakamlardan birisini giriniz");
+            hastaMenusu();
+        }
+
         switch (secim) {
-            case 1:// hasta ekleyecegiz
+            case "1":
                 hastaEkle();
                 System.out.println();
                 hastaMenusu();
                 break;
-            case 2:
+            case "2":
                 hastaListesiYazdir();
                 System.out.println();
                 hastaMenusu();
                 break;
-            case 3:
+            case "3":
                 hastaDurumu();
                 hastaMenusu();
                 break;
-            case 4:
+            case "4":
                 hastaSilme();
                 System.out.println();
                 hastaMenusu();
                 break;
-            case 5:
+            case "5":
                 hastaBulma();
                 hastaMenusu();
                 break;
-            case 6:
+            case "6":
                 anaMenu();
                 hastaMenusu();
                 break;
-            case 7:
+            case "7":
                 hastaMenusuCikis();
                 break;
             default:
@@ -66,22 +83,105 @@ public class HastaIslemleri {
         }
     }
 
-    public static void hastaEkle() {  // YAPILACAK
+    public static void hastaEkle() throws InterruptedException {  // YAPILACAK
 
         System.out.println("=========HASTA EKLEME========");
         System.out.println("Hasta ismini giriniz: ");
-        String hastaAdi = scan.nextLine();
+
+        String c = scan.nextLine().trim().toLowerCase();
+        c = c.replaceAll("[0-9]", "");
+        if (c.length() == 0) {
+            System.out.println("Lutfen isim giriniz");
+            hastaEkle();
+        }
+
+        String[] girilenDeger = c.split("");
+        String ilk = "";
+        String iki = "";
+        for (int i = 0; i < girilenDeger.length; i++) {
+            if (i == 0) {
+                ilk = girilenDeger[0];
+            } else {
+                iki += girilenDeger[i];
+            }
+        }
+        String hastaAdi = ilk.toUpperCase() + iki;
         System.out.println("Hasta soyismini giriniz: ");
-        String hastaSoyIsim = scan.nextLine();
+
+        String a = scan.nextLine().trim().toLowerCase();
+        a = a.replaceAll("[0-9]", "");
+        if (a.length() == 0) {
+            System.out.println("Lutfen soyisim giriniz");
+            hastaEkle();
+        }
+
+        String[] girilenDeger1 = a.split("");
+        String ilk1 = "";
+        String iki1 = "";
+        for (int i = 0; i < girilenDeger1.length; i++) {
+            if (i == 0) {
+                ilk1 = girilenDeger1[0];
+            } else {
+                iki1 += girilenDeger1[i];
+            }
+        }
+
+        String hastaSoyIsim = ilk1.toUpperCase() + iki1;
         System.out.println("Hastaliginizi giriniz: ");
-        String hastaAktuel = scan.nextLine();
+
+        String b = scan.nextLine().trim().toLowerCase();
+        b = b.replaceAll("[0-9]", "");
+        if (b.length() == 0) {
+            System.out.println("Lutfen hastaligi giriniz");
+            hastaEkle();
+        }
+        String[] girilenDeger2 = b.split("");
+        String ilk2 = "";
+        String iki2 = "";
+        for (int i = 0; i < girilenDeger2.length; i++) {
+            if (i == 0) {
+                ilk2 = girilenDeger2[0];
+            } else {
+                iki2 += girilenDeger2[i];
+            }
+        }
+        String hastaAktuel = ilk2.toUpperCase() + iki2;
+
         String hastaTamAd = hastaAdi + ", " + hastaSoyIsim + ", " + hastaAktuel;
         hastaIDNo += 111;
         hastaListesiMap.put(hastaIDNo, hastaTamAd);
         System.out.println(hastaListesiMap);
+        System.out.println("\n\n");
+
+        Integer menuSec = 0;
+        boolean d = false;
+        BufferedReader brr = new BufferedReader(new InputStreamReader(System.in));
+        do {
+            System.out.println("========HASTA EKLEME MENUSUNDESİNİZ=========\n" +
+                    "\t1-Hasta Menusu\n" +
+                    "\t2-Ana Menu\t\n" +
+                    "\t3-Yeni Hasta Ekleme");
+            try {
+                menuSec = Integer.parseInt(brr.readLine());
+                d = true;
+            } catch (NumberFormatException e) {
+                System.out.println("Yanlis karakter girdiniz");
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+
+        } while (!d);
+        if (menuSec == 1) {
+            hastaMenusu();
+        }
+        if (menuSec == 2) {
+            anaMenu();
+        } else {
+            hastaEkle();
+        }
     }
 
-    public static void hastaListesiYazdir () {
+    public static void hastaListesiYazdir() throws InterruptedException {
         System.out.println("======HASTA LISTELEME======");
         System.out.println(" IdNo     Isim    Soyisim     AktuelDurum \n" +
                 "---------------------------------------------------");
@@ -93,15 +193,45 @@ public class HastaIslemleri {
             String valueArr[] = eachValue.split(", ");
             System.out.printf("%-8s %-8s %-12s %-4s\n", eachKey, valueArr[0], valueArr[1], valueArr[2]);
         }
+        System.out.println("\n\n");
+        Integer menuSec = 0;
+        boolean c = false;
+        BufferedReader brr = new BufferedReader(new InputStreamReader(System.in));
+        do {
+            System.out.println("========HASTA LISTESI YAZDIRMA MENUSUNDESİNİZ=========\n" +
+                    "\t1-Hasta Menusu\n" +
+                    "\t2-Ana Menu\t\n" +
+                    "\t3-Hasta Listesi Yazdirma");
+            try {
+                menuSec = Integer.parseInt(brr.readLine());
+                c = true;
+            } catch (NumberFormatException e) {
+                System.out.println("Yanlis karakter girdiniz");
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+
+        } while (!c);
+        if (menuSec == 1) {
+            hastaMenusu();
+        }
+        if (menuSec == 2) {
+            anaMenu();
+        } else {
+            hastaListesi();
+        }
     }
 
-    public static void hastaDurumu () {
+    public static void hastaDurumu() throws InterruptedException {
 
-        Durum hastaDurumu = new Durum();
+        Case hastaDurumu = new Case();
 
         System.out.println("**********Hasta durumunu giriniz: **********");
         System.out.println("Allerji--Bas Agrisi--Diabet--Soguk alginligi--Migren--Kalp hastaliklari");
-        hastaDurumu.setAktuelDurum(scan.nextLine().toLowerCase());
+
+        String d = scan.nextLine().toLowerCase().trim();
+
+        hastaDurumu.setAktuelDurum(d);
 
         switch (hastaDurumu.getAktuelDurum()) {
             case "allerji":
@@ -131,71 +261,63 @@ public class HastaIslemleri {
             default:
                 System.out.println("Gecerli bir durum degil");
         }
+        System.out.println("\n\n");
+        Integer menuSec = 0;
+        boolean c = false;
+        BufferedReader brr = new BufferedReader(new InputStreamReader(System.in));
+        do {
+            System.out.println("========HASTA DURUMU MENUSUNDESİNİZ=========\n" +
+                    "\t1-Hasta Menusu\n" +
+                    "\t2-Ana Menu\t\n" +
+                    "\t3-Hasta Durumu");
+            try {
+                menuSec = Integer.parseInt(brr.readLine());
+                c = true;
+            } catch (NumberFormatException e) {
+                System.out.println("Yanlis karakter girdiniz");
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
 
+        } while (!c);
+        if (menuSec == 1) {
+            hastaMenusu();
+        }
+        if (menuSec == 2) {
+            anaMenu();
+        } else {
+            hastaDurumu();
+        }
     }
 
-    public static void hastaSilme () {
+    public static void hastaSilme() throws InterruptedException {
         System.out.println("Silmek istediginiz hastanin ID numarasini giriniz");
         System.out.println(hastaListesiMap);
-        Integer silinecekId = scan.nextInt();
+        Integer silinecekId = 0;
+        boolean a = false;
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        do {
+            System.out.println("Lütfen bir sayı giriniz: ");
+            try {
+                silinecekId = Integer.parseInt(br.readLine());
+                a = true;
+            } catch (NumberFormatException nfe) {
+                System.out.println("Yanlış karakter girdiniz. Lütfen bir sayı girin;");
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        } while (!a);
 
         boolean flag = false;
+        System.out.println("silinecek id" + silinecekId);
         if (hastaListesiMap.containsKey(silinecekId)) {
             hastaListesiMap.remove(silinecekId);
             System.out.println("Istenen hasta silindi");
-            System.out.println("========Guncel hasta listesi=======");
-            hastaListesiYazdir();
-            flag = true;
-
-        }
-        if (flag == false) {
-            System.out.println("Gecerli ID giriniz");
-            hastaSilme();
+            System.out.println("========Guncel hasta listesi====...");
         }
     }
+}
 
-    public static void hastaBulma () {
-        Scanner scan = new Scanner(System.in);
-        System.out.println("***** ID NUMARASI ILE HASTA BULMA*****");
-        System.out.println(hastaListesiMap);
-        System.out.println("Aradiginiz hastanin ID Numarasini giriniz");
-        Integer arananId = scan.nextInt();
-        Set<Map.Entry<Integer, String>> hastaEntrySet = hastaListesiMap.entrySet();
-        System.out.println("*****HASTA LISTESI*****");
-        System.out.println(" IdNo     Isim    Soyisim     AktuelDurum \n" +
-                "---------------------------------------------------");
-        boolean flag = false;
-        for (Map.Entry<Integer, String> w : hastaEntrySet) {
-            Integer eachKey = w.getKey();
-            String eachValue = w.getValue();
-            String[] valueArr = eachValue.split(", ");
-            if (eachKey.equals(arananId)) {
-                System.out.printf("%1s %-8s %-8s\n", eachKey, valueArr[0], valueArr[1], valueArr[2]);
-                flag = true;
-                break;
-            }
-        }
-        if (flag == false) {
-            System.out.println("Gecerli ID giriniz");
-            hastaBulma();
-        }
-    }
-
-    public static void anaMenu () throws InterruptedException {
-        QA9_Hastanesiislemler.hastaneMenusu();
-    }
-
-    public static void hastaMenusuCikis () throws InterruptedException {
-        System.out.println("==>Ana Menuye donmek icin '1' e\n" +
-                "==>Cikis icin '0' a basin");
-        int secim = scan.nextInt();
-        if (secim == 1) {
-            QA9_Hastanesiislemler.hastaneMenusu();
-        } else if (secim == 0) {
-            System.out.println("Sistemden cikisiniz gerceklesti");
-        }
-    }
-}//class
 
 
 
