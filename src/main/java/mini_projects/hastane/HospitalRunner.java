@@ -24,6 +24,7 @@ public class HospitalRunner {
     public static void exit() {
 
         System.out.println("Sağlıklı Günler Dileriz.");
+        System.exit(0);
     }
 
     public static void getSelectionMenu(DoctorUnit doctorUnit, PatientUnit patientUnit) {
