@@ -4,32 +4,69 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4af5945d-de09-4c8e-8c8d-1bd7f601bb0b" name="Changes" comment="02.09">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/DoctorUnit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Patient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/PatientUnit.java" afterDir="false" />
+    <list default="true" id="4af5945d-de09-4c8e-8c8d-1bd7f601bb0b" name="Changes" comment="02.12">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lambdapractice/P1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lambdapractice/P2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lambdapractice/P3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lambdapractice/TextFile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lambdapractice/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kendicalismam/MapCalismasi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day32collections/Queue01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day32collections/Queue01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day32collections/TreeSet01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day32collections/TreeSet01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day33maps/HashMaps01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day33maps/HashMaps01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day34mapiterators/HashMapMechanism.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day34mapiterators/HashMapMechanism.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day34mapiterators/HashTable01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day34mapiterators/HashTable01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day34mapiterators/TreeMap01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day34mapiterators/TreeMap01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day34mapiterators/UsStatesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day34mapiterators/UsStatesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day35lambda/Lambda01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day35lambda/Lambda01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day35lambda/Lambda02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day35lambda/Lambda02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day36lambda/Lambda001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day36lambda/Lambda001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day36lambda/Lambda02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day36lambda/Lambda02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day37lambda/Lambda" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day37lambda/Lambda" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Doktor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Doctor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/DoktorIslemleri.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Durum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Case.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Hasta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/HastaIslemleri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/HastaIslemleri.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Hastane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Hospital.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/HastaneRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/HospitalRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/QA9_Hastanesiislemler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/QA9_Hastanesiislemler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/VeriBankasi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/DataBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mentoring/A.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mentoring/B.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mentoring/D.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mentoring/StringBuilderStringBuffer" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mentoring/StringBuilderStringBuffer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/sule/practice02/C01_NestedLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/practice02/C01_NestedLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/sule/practice02/daytime10/KullaniciBilgileriMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/practice02/daytime10/KullaniciBilgileriMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/sule/practice02/practice04/C01_ForLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/practice02/practice04/C01_ForLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/sule/practice02/practice04/C01_ForLoopCdenOncekiA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/practice02/practice04/C01_ForLoopCdenOncekiA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/sule/practice02/practice04/C02_ForLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/practice02/practice04/C02_ForLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/sule/practice02/practice04/interviewC03_DoWhileLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/practice02/practice04/interviewC03_DoWhileLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/sule/practice02/practice04/interviewC04WhileLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/practice02/practice04/interviewC04WhileLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/BagetEkmek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicenighttime08/BagetEkmek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicenighttime08/Browser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/C02_IfStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicenighttime08/C02_IfStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/Chrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicenighttime08/Chrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/DT_09/AileOdasi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicenighttime08/DT_09/AileOdasi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/DT_09/KralDairesi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicenighttime08/DT_09/KralDairesi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/DT_09/Otel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicenighttime08/DT_09/Otel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/DT_09/TekKisilik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicenighttime08/DT_09/TekKisilik.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/Dancer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicenighttime08/Dancer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/DiyetEkmek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicenighttime08/DiyetEkmek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicenighttime08/Edge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/Kumanda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicenighttime08/Kumanda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/KumandaRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicenighttime08/KumandaRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/KumandaTask" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicenighttime08/KumandaTask" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/MisirEkmek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicenighttime08/MisirEkmek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicenighttime08/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/Persons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicenighttime08/Persons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/Programmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicenighttime08/Programmer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/Safari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicenighttime08/Safari.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/Singer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicenighttime08/Singer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/StringBuilderKiyas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicenighttime08/StringBuilderKiyas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/StringManipulations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicenighttime08/StringManipulations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/TSE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicenighttime08/TSE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Case.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/hastane/Case.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/DataBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/hastane/DataBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/hastane/Doctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/DoctorUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/hastane/DoctorUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/HastaIslemleri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/hastane/HastaIslemleri.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Hospital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/hastane/Hospital.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/HospitalRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/hastane/HospitalRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/hastane/Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/PatientUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/hastane/PatientUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/QA9_Hastanesiislemler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/hastane/TaskHastane" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/hastane/TaskHastane" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/paractice07/C01_Exception.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicenighttime08/paractice07/C01_Exception.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/paractice07/C02_Exceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicenighttime08/paractice07/C02_Exceptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/paractice07/C03_Ternary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicenighttime08/paractice07/C03_Ternary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/paractice07/Exceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicenighttime08/paractice07/Exceptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/paractice07/MiladiTakvim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicenighttime08/paractice07/MiladiTakvim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/paractice07/MyExceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicenighttime08/paractice07/MyExceptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/paractice07/RunnerExceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicenighttime08/paractice07/RunnerExceptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practiceSule08/nighttime08/practice09/CollectionsMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practicenighttime08/practice09/CollectionsMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,13 +131,13 @@
       <recent name="day24accessmodifiersinheritance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UsStatesRunner">
-    <configuration name="HashMaps01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day33maps.HashMaps01" />
+  <component name="RunManager" selected="Application.ListIteratorMethods">
+    <configuration name="ListIteratorMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KonuOzetleri.ListIteratorMethods" />
       <module name="BATCH129" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day33maps.*" />
+          <option name="PATTERN" value="KonuOzetleri.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Maps05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="denemelerim.sorukitapcigi.maps.Maps05" />
+    <configuration name="P02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LambdaPractice.P02" />
       <module name="BATCH129" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="denemelerim.sorukitapcigi.maps.*" />
+          <option name="PATTERN" value="LambdaPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Maps06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="denemelerim.sorukitapcigi.maps.Maps06" />
+    <configuration name="P1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lambdapractice.P1" />
       <module name="BATCH129" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="denemelerim.sorukitapcigi.maps.*" />
+          <option name="PATTERN" value="Lambdapractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsStatesRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day34mapiterators.UsStatesRunner" />
+    <configuration name="P2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lambdapractice.P2" />
       <module name="BATCH129" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day34mapiterators.*" />
+          <option name="PATTERN" value="Lambdapractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,12 +184,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VehicleRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day25inheritance.VehicleRunner" />
+    <configuration name="P3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lambdapractice.P3" />
       <module name="BATCH129" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day25inheritance.*" />
+          <option name="PATTERN" value="Lambdapractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UsStatesRunner" />
-        <item itemvalue="Application.HashMaps01" />
-        <item itemvalue="Application.VehicleRunner" />
-        <item itemvalue="Application.Maps06" />
-        <item itemvalue="Application.Maps05" />
+        <item itemvalue="Application.ListIteratorMethods" />
+        <item itemvalue="Application.P3" />
+        <item itemvalue="Application.P02" />
+        <item itemvalue="Application.P2" />
+        <item itemvalue="Application.P1" />
       </list>
     </recent_temporary>
   </component>
@@ -354,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675890440609</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="02.12">
+      <created>1676182836719</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1676182836719</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -385,6 +429,7 @@
     <MESSAGE value="02*07" />
     <MESSAGE value="02" />
     <MESSAGE value="02.09" />
-    <option name="LAST_COMMIT_MESSAGE" value="02.09" />
+    <MESSAGE value="02.12" />
+    <option name="LAST_COMMIT_MESSAGE" value="02.12" />
   </component>
 </project>

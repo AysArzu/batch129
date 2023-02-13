@@ -32,7 +32,7 @@ final kullanımı:1) Variable:.
                 2) Method:
                    i)Method body si değiştirilemez     public final ant add(int a,int b){
                                                                   return a+b;}
-                   ii)Methıdun body'si değiştirilemeyince override yapılamaz.
+                   ii)Methodun body'si değiştirilemeyince override yapılamaz.
                 3) Class:
                    Bir class final ise o class'ın child'i olamaz
  *** static methodlar overload yapılabilir ama override yapılamaz
