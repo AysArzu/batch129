@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4af5945d-de09-4c8e-8c8d-1bd7f601bb0b" name="Changes" comment="0213">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/biletrezervasyon/Bilet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/biletrezervasyon/BiletRezervasyon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/biletrezervasyon/Bus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/loginpageapp/LoginPageApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/loginpageapp/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/loginpageapp/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/repeatAracSigortaApp/Arac.java" afterDir="false" />
+    <list default="true" id="4af5945d-de09-4c8e-8c8d-1bd7f601bb0b" name="Changes" comment="02.14">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day34mapiterators/Iterators01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day34mapiterators/Iterators01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/repeatAracSigortaApp/AracSigortaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/repeatAracSigortaApp/AracSigortaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/loginpageapp/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/loginpageapp/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -359,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676314577977</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="02.14">
+      <created>1676405268272</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1676405268272</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -393,6 +392,7 @@
     <MESSAGE value="02.12" />
     <MESSAGE value="02.13" />
     <MESSAGE value="0213" />
-    <option name="LAST_COMMIT_MESSAGE" value="0213" />
+    <MESSAGE value="02.14" />
+    <option name="LAST_COMMIT_MESSAGE" value="02.14" />
   </component>
 </project>
