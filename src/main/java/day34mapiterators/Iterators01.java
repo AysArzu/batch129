@@ -20,9 +20,11 @@ public class Iterators01 {
         iki tip iterator var
         i) Iterator : Sadece elemanlari remove edebilirsiniz.
                       Sadece soldan saga calisir yani tek yonludur(for-each loop gibi.)
+                      index yok
 
         ii)ListIterator : Eleman "remove etme", "update etme" ve "add" yapabilirsiniz
                           Hem sol'dan saga hem de sag'dan sola calisabilir yani cift yonludur
+                          sadece listlerde kullanilir
          */
 
 
@@ -73,7 +75,7 @@ public class Iterators01 {
             String el = listItr2.previous();
             listItr2.set(el + "<===");
 
-// icine yazarsak tek tek yazdirir [Ali, Can, Aliye<===] gibi
+        // icine yazarsak tek tek yazdirir [Ali, Can, Aliye<===] gibi
         }
         System.out.println(list3);//[Ali<===, Can<===, Aliye<===] aliye ye <== isareti ekler sonra
         // solundakine sonra da onun solundakine gore devam eder
