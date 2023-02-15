@@ -130,8 +130,8 @@ public class UserService {
 
             boolean checkStart = firstPart.replaceAll("[a-zA-Z0-9_.-]", "").length() == 0;
             boolean checkEnd = secondPart.equals("gmail.com") ||
-                    secondPart.equals("yahoo.com") ||
-                    secondPart.equals("hotmail.com");
+                               secondPart.equals("yahoo.com") ||
+                               secondPart.equals("hotmail.com");
 
             if (!checkStart) {
                 System.out.println("Email kucuk harf, buyuk harf, rakam ve _.- disinda karakter iceremez");

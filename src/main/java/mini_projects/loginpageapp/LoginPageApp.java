@@ -48,7 +48,7 @@ Project: Bir siteye üye olma ve giriş yapma sayfası tasarlayınız.
             switch (select) {
                 case 1:
                     //register
-                 //   register();
+
                     break;
                 case 2:
                     //login
@@ -59,11 +59,11 @@ Project: Bir siteye üye olma ve giriş yapma sayfası tasarlayınız.
                     System.out.println("Iyi gunler dileriz....");
                     break;
                 default:
-                    System.out.println("Htali giris yaptiniz");
+                    System.out.println("Hatali giris yaptiniz");
                     break;
             }
         } while (select != 0);
-   //2- tum userlarin ortak ozellikleri olacak user calssi olusturalim
+   //2- tum userlarin ortak ozellikleri olacak user clasi olusturalim
 
     }
 }

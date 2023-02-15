@@ -8,11 +8,11 @@ public class Bus {
     public String numberPlate;
     public List<String> seats = new ArrayList<>();
 
-    //3-otobus olusturuldugunda koltuk nolari da olsunve plaka set edilsin
+    //3-otobus olusturuldugunda koltuk nolari da olsun ve plaka set edilsin
     public Bus(String numberPlate) {
         this.numberPlate = numberPlate;
-        for (int i = 1; i < 32; i++) {
-            this.seats.add(i + "");// \String.valueOf() da kullanabiliriz.
+        for (int i = 1; i < 45; i++) {
+            this.seats.add(i + "");// String.valueOf() da kullanabiliriz.
 
         }
     }

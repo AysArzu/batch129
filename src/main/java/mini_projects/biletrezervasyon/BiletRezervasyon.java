@@ -57,7 +57,7 @@ Project: mesafeye ve şartlara göre otobüs bileti fiyatı hesaplayan uygulama
                     bilet.distance=distance;
                     bilet.typeNo=type;
                     bilet.seatNo=seat;
-                    //getTotal ile bilet price ı set edelim
+                    //getTotal ile bilet price'ı set edelim
                     bilet.price=getTotal(bilet,age);
                     //bileti yazdıralım
                     System.out.println("------------------------------");
@@ -98,7 +98,7 @@ Project: mesafeye ve şartlara göre otobüs bileti fiyatı hesaplayan uygulama
             if(age<=12){
                 total=total*0.5;
                 System.out.println("yaş indirimli tutar :"+total);
-            }else if (age>12 && age<24){
+            }else if (age<24){
                 total=total*0.9;
                 System.out.println("yaş indirimli tutar :"+total);
             }else if(age>65){

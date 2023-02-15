@@ -11,7 +11,7 @@ public class UserService {
     //tum methodlarda kullanicidan bilgi almak icin Scanner objesini olusturduk
     Scanner inp = new Scanner(System.in);
 
-    //7-Username veya email bilgisi ile kayitli useri getirmek icin bir method olusturalim
+    //7-Username veya email bilgisi ile kayitli User'i getirmek icin bir method olusturalim
     private User getUser(String userNameOrEmail) {
         for (User user : userList) {
             if (user.getUserName().equals(userNameOrEmail)) {
@@ -42,7 +42,9 @@ public class UserService {
 
             boolean checkStart = valid && firstPart.length() > 0;
 
-            boolean checkEnd = secondPart.equals("gmail.com") || secondPart.equals("hotmail.com") || secondPart.equals("yahoo.com");
+            boolean checkEnd = secondPart.equals("gmail.com") ||
+                               secondPart.equals("hotmail.com")||
+                               secondPart.equals("yahoo.com");
             if (!checkStart) {
                 System.out.println("Mailin kullanici adi bolumu en az bir karakter icermelidir " +
                         "ve sadece kucuk buyuk harf rakam ya da -._ icerebilir");

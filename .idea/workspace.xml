@@ -4,8 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4af5945d-de09-4c8e-8c8d-1bd7f601bb0b" name="Changes" comment="02.14">
+    <list default="true" id="4af5945d-de09-4c8e-8c8d-1bd7f601bb0b" name="Changes" comment="02.141">
+      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/restaurantbillgenerator/Dish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/restaurantbillgenerator/DishService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/restaurantbillgenerator/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/restaurantbillgenerator/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/restaurantbillgenerator/RestaurantBillGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/biletrezervasyon/BiletRezervasyon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/biletrezervasyon/BiletRezervasyon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/biletrezervasyon/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/biletrezervasyon/Bus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/login/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/login/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/loginpageapp/LoginPageApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/loginpageapp/LoginPageApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/loginpageapp/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/loginpageapp/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +80,7 @@
       <recent name="day24accessmodifiersinheritance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BiletRezervasyon">
+  <component name="RunManager" selected="Application.RestaurantBillGenerator">
     <configuration name="AracSigortaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mini_projects.repeatAracSigortaApp.AracSigortaApplication" />
       <module name="BATCH129" />
@@ -111,18 +120,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindDuplicates02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="replitquestions.FindDuplicates02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="replitquestions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="HospitalRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mini_projects.hastane.HospitalRunner" />
       <module name="BATCH129" />
@@ -136,13 +133,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RestaurantBillGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mini_projects.restaurantbillgenerator.RestaurantBillGenerator" />
+      <module name="BATCH129" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mini_projects.restaurantbillgenerator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RestaurantBillGenerator" />
         <item itemvalue="Application.BiletRezervasyon" />
         <item itemvalue="Application.AracSigortaApplication" />
         <item itemvalue="Application.C07_SubSequence" />
         <item itemvalue="Application.HospitalRunner" />
-        <item itemvalue="Application.FindDuplicates02" />
       </list>
     </recent_temporary>
   </component>
@@ -358,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676405268272</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="02.141">
+      <created>1676410220693</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1676410220693</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -393,6 +410,7 @@
     <MESSAGE value="02.13" />
     <MESSAGE value="0213" />
     <MESSAGE value="02.14" />
-    <option name="LAST_COMMIT_MESSAGE" value="02.14" />
+    <MESSAGE value="02.141" />
+    <option name="LAST_COMMIT_MESSAGE" value="02.141" />
   </component>
 </project>
