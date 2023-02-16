@@ -20,7 +20,7 @@ public class User {
         return name;
     }
 
-    public String getUserName() {
+    public String getUsername() {
         return userName;
     }
 
@@ -30,5 +30,15 @@ public class User {
 
     public String getPassword() {
         return password;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "name='" + name + '\'' +
+                ", userName='" + userName + '\'' +
+                ", email='" + email + '\'' +
+                ", password='" + password + '\'' +
+                '}';
     }
 }

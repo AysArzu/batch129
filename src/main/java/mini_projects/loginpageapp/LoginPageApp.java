@@ -33,37 +33,37 @@ Project: Bir siteye üye olma ve giriş yapma sayfası tasarlayınız.
         start();
     }
 
-    public static void start() {
-        Scanner inp = new Scanner(System.in);
-//1- kullaniciya islem menusu gosterelim
+
+
+    public static void start(){
+        Scanner inp=new Scanner(System.in);
+        UserService service=new UserService();
+//1-kullanıcıya işlem menüsü gösterelim.
         int select;
         do {
-
-
-            System.out.println("====TECHPROEDUCATION ===");
-            System.out.println("1-Uye ol");
-            System.out.println("2-Giris yap");
-            System.out.println("0-cikis");
-            select = inp.nextInt();
-            switch (select) {
+            System.out.println("=== TECHPROEDUCATION ===");
+            System.out.println("1-üye ol");
+            System.out.println("2-giriş yap");
+            System.out.println("0-ÇIKIŞ");
+            select= inp.nextInt();
+            switch (select){
                 case 1:
                     //register
-
+                    service.register();
+                    System.out.println(service.userList);
                     break;
                 case 2:
                     //login
-                 //   login();
+                    service.login();
                     break;
                 case 0:
-                    //cikis
-                    System.out.println("Iyi gunler dileriz....");
+                    System.out.println("İyi günler dileriz...");
                     break;
                 default:
-                    System.out.println("Hatali giris yaptiniz");
+                    System.out.println("Hatalı giriş yaptınız, tekrar deneyiniz!");
                     break;
             }
-        } while (select != 0);
-   //2- tum userlarin ortak ozellikleri olacak user clasi olusturalim
-
+        }while (select!=0);
+//2-tüm userların ortak özellikleri olacak, user classı oluşturalım.
     }
 }

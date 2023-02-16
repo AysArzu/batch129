@@ -8,7 +8,7 @@ Proje: Restaurant Fis Uretme Uygulamasi(BillGenerator)
 1-Bir restaurantin online siparis sisteminde hesabi
 yazdiran uygulama tasarlayiniz.
 
-2-Restauranttaki yiyecekler bir liste tutulsun.
+2-Restauranttaki yiyecekler bir listede tutulsun.
 Yiyeceklerin kodu, ismi ve ucreti olsun.
 
 3-Yiyecek menusu, siparis olusturma/iptal ve hesap
@@ -21,6 +21,11 @@ Yiyeceklerin kodu, ismi ve ucreti olsun.
   Siparis iptal:Siparis kodu girilerek siparis silinsin
   Hesap olusturma:Tutarlari ile birlikte tum siparisleri ve
                   toplam tutari gosteren bir hesap fisi yazdirilsin/
+
+    ek:Sirket buyudu cafe kismi acildi.
+      Ayni uygulama cafe kisminda da kulanilsin
+      Cafe de farkli menu var.
+
  */
 public class RestaurantBillGenerator {
     public static void main(String[] args) {
@@ -29,19 +34,33 @@ public class RestaurantBillGenerator {
     }
 
     public static void start() {
-        DishService dishService = new DishService();
-        dishService.fillDishList();
-        OrderService orderService= new OrderService();
-        getSelectionMenu(dishService,orderService);
+        Scanner inp = new Scanner(System.in);
+        OrderService orderService = new OrderService();
+        System.out.println("Merhaba");
+        System.out.println("1-Restaurant");
+        System.out.println("2-Cafe");
+        int option = inp.nextInt();
+        if (option == 1) {
+            DishService dishService = new DishService();
+            dishService.fillDishList();
+            getSelectionMenu(dishService, orderService);
+        } else {
+            DishService dishService = new CafeDishService();
+            dishService.fillDishList();
+            getSelectionMenu(dishService, orderService);
+        }
+        System.out.println("Iyi gunler...");
+
     }
 
-    public static void getSelectionMenu(DishService dishService,OrderService orderService) {
+    public static void getSelectionMenu(DishService dishService, OrderService orderService) {
 
         int select = -1;
         while (select != 0) {
             Scanner inp = new Scanner(System.in);
+
             System.out.println("----------------------------------");
-            System.out.println("***  Lezzet Restaurant Siparis Uygulamasi  ***");
+            System.out.println("***  Lezzet Restaurant/Cafe Siparis Uygulamasi  ***");
             System.out.println("1-Menu");
             System.out.println("2-Siparis girme");
             System.out.println("3-Siparis iptal etme");
@@ -53,7 +72,7 @@ public class RestaurantBillGenerator {
             switch (select) {
                 case 1:
                     //menuyu listele
-                   dishService.showDishMenu();
+                    dishService.showDishMenu();
                     break;
                 case 2:
                     //siparis gir

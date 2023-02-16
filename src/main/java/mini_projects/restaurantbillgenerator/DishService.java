@@ -32,7 +32,7 @@ public class DishService {
     public void showDishMenu() {
         System.out.println("             Lezzetlerimiz           ");
         System.out.printf("%-3s    %-20s   %-5s\n", "Kod", "Adi", "Fiyat");
-        System.out.printf("%-3s    %-20s   %-5s\n", "---", "---", "-----");
+        System.out.printf("%-3s    %-20s   %-5s\n", "---", "-------------", "----------");
 
         for (Dish dish : this.dishList) {
 
@@ -56,6 +56,6 @@ public class DishService {
             }
             System.out.println("Urun bulunamadi");
         }
-        return new Dish(0,"",0);
+        return null;//new lemek maaliyetli oldugu icin null sectik.
     }
 }

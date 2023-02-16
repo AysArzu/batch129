@@ -1,6 +1,7 @@
 package mini_projects.restaurantbillgenerator;
 
 public class Dish {
+    //yieceklerin fieldleri okunabilsin ama degistirilemesin
     private  int code;
     private String name;
     private double price;
