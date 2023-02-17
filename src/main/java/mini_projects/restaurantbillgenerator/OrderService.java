@@ -4,72 +4,100 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+//10:order işlemler
 public class OrderService {
-    Scanner inp = new Scanner(System.in);
-    List<Order> orderList = new ArrayList<>();
-//siparis olusturma
+    Scanner inp=new Scanner(System.in);
+    List<Order> orderList=new ArrayList<>();//1000,Adana*2
 
-    public void createOrder(DishService dishService) {
-        int dishCode = -1;
-        while (dishCode != 0) {
-            System.out.println("Lutfen urun kodunu giriniz: (CIKIS:0)");//100
-            dishCode = inp.nextInt();
-            if (dishService.findDishByCode(dishCode) != null) {
-                Dish dish = dishService.findDishByCode(dishCode);//100,Adana Kebap,220//bulamazsa 0,"",0
-                if (dish.getCode() > 0) {
-
-                    System.out.println("Adet giriniz");
-                    int num = inp.nextInt();
-                    Order order = new Order(dish, num);
-                    order.setPrice();//Ucret hesapla ve orderprice a ata
-                    order.setOrderCode(1000 + this.orderList.size());//1000,1001
+    //11:sipariş oluşturma
+    public void createOrder(DishService dishService){
+        int dishCode;
+        do {
+            System.out.println("Lütfen ürün kodu giriniz:(ÇIKIŞ için 0 giriniz.) ");
+            dishCode=inp.nextInt();//code ile ürünü bulmamız gerekiyor--->12
+            if(dishService.findByDishCode(dishCode)!=null){
+                Dish dish=dishService.findByDishCode(dishCode);
+                System.out.println("Adet giriniz:");
+                int number=inp.nextInt();
+                //bu yemek daha önce sipariş edilmiş mi--->13
+                Order order;
+                if(findByOrderByDish(dish)!=null){
+                    order=findByOrderByDish(dish);
+                    order.numOfDishes+=number;
+                    order.setPrice();
+                }else{
+                    order=new Order(dish,number);//orderCode:otomatik:1000 Adana
+                    order.setPrice();
                     this.orderList.add(order);
                 }
-            }
-            for (Order order : this.orderList) {
-                System.out.printf("Siparis kodu :%-5s  lezzet kodu:%-3s  adi:%-16s adet:%-2s\n",
-                        order.orderCode, order.dish.getCode(), order.dish.getName(), order.numOfDishes);
+            }//sipariş oluşunca altta sipariş listesini görüntüle--->14
+            listOrders();
 
+        }while(dishCode!=0);
 
-            }
-        }
+    }
+    //14:siparişleri listele
+    private void listOrders() {
+        this.orderList.
+                forEach(order-> System.out.printf("Sipariş kodu:%-5s  Lezzet kodu:%-4s Lezzet adı:%-15s Adet:%-2s\n",
+                        order.orderCode,order.dish.getCode(),order.dish.getName(),order.numOfDishes));
     }
 
-    public void deleteOrder() {
-        boolean isValid = true;
-        if (this.orderList.isEmpty()) {
-            System.out.println("Siparisiniz bulunmamaktadir");
-        } else {
-            System.out.println("Iptal etmek istediginiz siparisin kodunu giriniz");
-            int code = inp.nextInt();//1000
-            for (Order order : this.orderList) {
-                if (order.orderCode == code) {
+    //13:dish bilgisi ile sipariş bulma
+    private Order findByOrderByDish(Dish dish){
+        for (Order order:this.orderList){
+            if(order.dish.equals(dish)){
+                return order;
+            }
+        }
+        return null;
+    }
+
+    //15:sipariş iptali
+    public void deleteOrder(){
+
+        System.out.println("İptal etmek istediğiniz siparişin kodunu giriniz:");
+        int code= inp.nextInt();
+        boolean isValid=true;
+        for (Order order:this.orderList){
+            if(order.orderCode==code){
+                System.out.println("İptal etmek istediğiniz miktarı giriniz:");//3 Urfa:600
+                int num= inp.nextInt();//2
+                if(order.numOfDishes>num){
+                    order.numOfDishes-=num;
+                    order.setPrice();
+                    System.out.println("Sipariş iptal edildi."+order.dish.getName());
+                }else if(order.numOfDishes==num){
                     this.orderList.remove(order);
-                    System.out.println("Siparisiniz iptal edildi " + order.orderCode + " " + order.dish.toString());
-                    isValid = true;
-                    break;
-                } else {
-                    isValid = false;
-
+                    System.out.println("Sipariş iptal edildi."+order.dish.getName());
+                }else {
+                    System.out.println("Hatalı giriş!");
                 }
+                isValid=true;
+                break;
+            }else {
+                isValid=false;
             }
-            if (!isValid) {
-                System.out.println("Siparis kodunuz gecersizdir!");
-            }
-
         }
+        if (!isValid){
+            System.out.println("Sipariş kodu geçersiz!!!");
+        }
+        System.out.println("            Mevcut Siparisler         ");
+        listOrders();
     }
 
-    public void printBill() {
-        double totalPrice = 0.0;
-        System.out.println("         Lezzet Fisiniz          ");
-        for (Order order : this.orderList) {
-            System.out.printf("Lezzet kodu:%-5s adi:%-18s adet:%-5s siparis tutari:%-5s Lira\n",
-                    order.dish.getCode(), order.dish.getName(), order.numOfDishes, order.orderPrice);
-            totalPrice += order.orderPrice;
+    //16:hesabı oluşturma
+    public void printBill(){
+        double total=0;
+        System.out.println("        Lezzet Fişiniz            ");
+        for (Order order:this.orderList){
+            System.out.printf("Sipariş Kodu:%-6s Lezzet Kodu:%-4s Lezzet adı:%-15s Adet:%-2s Tutar:%-6s Lira\n",
+                    order.orderCode,order.dish.getCode(),order.dish.getName(),order.numOfDishes,order.orderPrice);
+            total+=order.orderPrice;
         }
-        System.out.println("Toplam tutar: " + totalPrice + " Lira");
-        System.out.printf("Afiyet olsun...");
-        this.orderList = new ArrayList<>();
+        System.out.println("Toplam Tutar:"+total);
+        System.out.println("Afiyet olsun...");
+        this.orderList.clear();
     }
+
 }

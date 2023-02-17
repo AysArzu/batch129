@@ -4,18 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4af5945d-de09-4c8e-8c8d-1bd7f601bb0b" name="Changes" comment="02.15">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/restaurantbillgenerator/CafeDishService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/restaurantbillgenerator/RestaurantCafeBillGenerator.java" afterDir="false" />
+    <list default="true" id="4af5945d-de09-4c8e-8c8d-1bd7f601bb0b" name="Changes" comment="02.17">
+      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/appointmentapp/Appointment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/appointmentapp/AppointmentApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/appointmentapp/AppointmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/minibookstore/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/minibookstore/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/minibookstore/MiniBookStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/minibookstore/Notebook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/minibookstore/NotebookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/minibookstore/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/minibookstore/ProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/loginpageapp/LoginPageApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/loginpageapp/LoginPageApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/loginpageapp/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/loginpageapp/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/loginpageapp/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/loginpageapp/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/restaurantbillgenerator/Dish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/restaurantbillgenerator/Dish.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/restaurantbillgenerator/DishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/restaurantbillgenerator/DishService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/restaurantbillgenerator/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/restaurantbillgenerator/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/restaurantbillgenerator/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/restaurantbillgenerator/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/restaurantbillgenerator/RestaurantBillGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/restaurantbillgenerator/RestaurantBillGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +82,7 @@
       <recent name="day24accessmodifiersinheritance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RestaurantBillGenerator">
+  <component name="RunManager" selected="Application.MiniBookStore">
     <configuration name="AracSigortaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mini_projects.repeatAracSigortaApp.AracSigortaApplication" />
       <module name="BATCH129" />
@@ -107,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C07_SubSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ssg01.stringbuilder.C07_SubSequence" />
+    <configuration name="LoginPageApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mini_projects.loginpageapp.LoginPageApp" />
       <module name="BATCH129" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ssg01.stringbuilder.*" />
+          <option name="PATTERN" value="mini_projects.loginpageapp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginPageApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mini_projects.loginpageapp.LoginPageApp" />
+    <configuration name="MiniBookStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mini_projects.minibookstore.MiniBookStore" />
       <module name="BATCH129" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mini_projects.loginpageapp.*" />
+          <option name="PATTERN" value="mini_projects.minibookstore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MiniBookStore" />
         <item itemvalue="Application.RestaurantBillGenerator" />
         <item itemvalue="Application.LoginPageApp" />
         <item itemvalue="Application.BiletRezervasyon" />
         <item itemvalue="Application.AracSigortaApplication" />
-        <item itemvalue="Application.C07_SubSequence" />
       </list>
     </recent_temporary>
   </component>
@@ -382,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676470583603</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="02.16">
+      <created>1676572666641</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1676572666641</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -419,6 +428,8 @@
     <MESSAGE value="02.14" />
     <MESSAGE value="02.141" />
     <MESSAGE value="02.15" />
-    <option name="LAST_COMMIT_MESSAGE" value="02.15" />
+    <MESSAGE value="02.16" />
+    <MESSAGE value="02.17" />
+    <option name="LAST_COMMIT_MESSAGE" value="02.17" />
   </component>
 </project>

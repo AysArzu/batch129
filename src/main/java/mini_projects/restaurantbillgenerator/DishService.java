@@ -42,8 +42,8 @@ public class DishService {
 
     }
     //order icin girilen urun kodu hangi urune ait?
-
-    public Dish findDishByCode(int code){
+    //12 code ile dish bulma
+    public Dish findByDishCode(int code){
         if(code==0){
             System.out.println("Ana menuye yonlendiriliyorsunuz");
 
