@@ -4,20 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4af5945d-de09-4c8e-8c8d-1bd7f601bb0b" name="Changes" comment="02.17">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/appointmentapp/Appointment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/appointmentapp/AppointmentApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/appointmentapp/AppointmentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/minibookstore/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/minibookstore/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/minibookstore/MiniBookStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/minibookstore/Notebook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/minibookstore/NotebookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/minibookstore/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/minibookstore/ProductService.java" afterDir="false" />
+    <list default="true" id="4af5945d-de09-4c8e-8c8d-1bd7f601bb0b" name="Changes" comment="02.18">
+      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/OgrenciSecimi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ssg01/Apartman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ssg01/Lambda03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ssg01/Lambda04.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/restaurantbillgenerator/DishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/restaurantbillgenerator/DishService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/restaurantbillgenerator/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/restaurantbillgenerator/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day36lambda/Lambda02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day36lambda/Lambda02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/minibookstore/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/minibookstore/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/minibookstore/MiniBookStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/minibookstore/MiniBookStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/minibookstore/NotebookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/minibookstore/NotebookService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,13 +78,13 @@
       <recent name="day24accessmodifiersinheritance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MiniBookStore">
-    <configuration name="AracSigortaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mini_projects.repeatAracSigortaApp.AracSigortaApplication" />
+  <component name="RunManager" selected="Application.Lambda04">
+    <configuration name="Lambda03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ssg01.Lambda03" />
       <module name="BATCH129" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mini_projects.repeatAracSigortaApp.*" />
+          <option name="PATTERN" value="ssg01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,25 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BiletRezervasyon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mini_projects.biletrezervasyon.BiletRezervasyon" />
+    <configuration name="Lambda04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ssg01.Lambda04" />
       <module name="BATCH129" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mini_projects.biletrezervasyon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginPageApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mini_projects.loginpageapp.LoginPageApp" />
-      <module name="BATCH129" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mini_projects.loginpageapp.*" />
+          <option name="PATTERN" value="ssg01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,6 +111,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="mini_projects.minibookstore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OgrenciSecimi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mini_projects.OgrenciSecimi" />
+      <module name="BATCH129" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mini_projects.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lambda04" />
+        <item itemvalue="Application.Lambda03" />
+        <item itemvalue="Application.OgrenciSecimi" />
         <item itemvalue="Application.MiniBookStore" />
         <item itemvalue="Application.RestaurantBillGenerator" />
-        <item itemvalue="Application.LoginPageApp" />
-        <item itemvalue="Application.BiletRezervasyon" />
-        <item itemvalue="Application.AracSigortaApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -391,7 +387,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676572666641</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="02.18">
+      <created>1676669642084</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1676669642084</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -430,6 +433,7 @@
     <MESSAGE value="02.15" />
     <MESSAGE value="02.16" />
     <MESSAGE value="02.17" />
-    <option name="LAST_COMMIT_MESSAGE" value="02.17" />
+    <MESSAGE value="02.18" />
+    <option name="LAST_COMMIT_MESSAGE" value="02.18" />
   </component>
 </project>

@@ -33,8 +33,11 @@ public class MiniBookStore {
                 select= inp.nextInt();
                 inp.nextLine();
                 ProductService service;
+
                 //BookService bookService=new BookService();
                 //NotebookService notebookService=new NotebookService();
+                // boyle tek tek yazmaya gerek yok sadece interface ten olusturup constructorunu book venotebook serviceden olusturarak nesne urettik
+
                 switch (select){
                     case 1:
                         service=new BookService();

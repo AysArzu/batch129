@@ -30,40 +30,41 @@ public class Lambda02 {
                 map(String::toUpperCase).
                 forEach(System.out::println);
         //3)LambdaTextFile dosyasi icinde herhangi bir kelimenin var olup olmadigini gosteren kodu yaziniz
-     boolean result=  Files.
+        boolean result = Files.
                 lines(Paths.get("src/main/java/day36lambda/LambdaTextFile.txt")).
-                map(t->t.split(" ")).
+                map(t -> t.split(" ")).
                 flatMap(Arrays::stream).//array i kir dumduz yap der stream gibi alt alta dizer
-                 anyMatch(t->t.contains("Java"));// herhangi biri Java ise sonuc true olur
+                        anyMatch(t -> t.contains("Java"));// herhangi biri Java ise sonuc true olur
         System.out.println(result);//true
 
-    //4)LambdaTextFile dosyasi icindeki her kelimenin "a" icerip icermedigini gosteren kodu yaziniz
-        boolean result2=  Files.
+        //4)LambdaTextFile dosyasi icindeki her kelimenin "a" icerip icermedigini gosteren kodu yaziniz
+        boolean result2 = Files.
                 lines(Paths.get("src/main/java/day36lambda/LambdaTextFile.txt")).
-                map(t->t.split(" ")).
+                map(t -> t.split(" ")).
                 flatMap(Arrays::stream).//array i kir dumduz yap der stream gibi alt alta dizer
-                       allMatch(t->t.contains("a"));//
+                        allMatch(t -> t.contains("a"));//
         System.out.println(result2);//Her kelime a harfini iceriyorsa sonuc true olur aksi halde false olur. false cikti
 
 //5)LambdaTextFile dosyasi icindeki her kelimenin "x"  icermedigini gosteren kodu yaziniz
 
-        boolean result3=Files.lines(Paths.get("src/main/java/day36lambda/LambdaTextFile.txt")).
-                map(t->t.split(" ")).flatMap(Arrays::stream).
-                noneMatch(t->t.contains("x"));
+        boolean result3 = Files.lines(Paths.get("src/main/java/day36lambda/LambdaTextFile.txt")).
+                map(t -> t.split(" ")).flatMap(Arrays::stream).
+                noneMatch(t -> t.contains("x"));
         System.out.println(result3);
 
-       //6)LambdaTextFile dosyasi icinde "r" ile biten kelimeleri sayan kodu yaziniz
+        //6)LambdaTextFile dosyasi icinde "r" ile biten kelimeleri sayan kodu yaziniz
 
-     long result4= Files.lines(Paths.get("src/main/java/day36lambda/LambdaTextFile.txt")).
-                map(t->t.split(" ")).flatMap(Arrays::stream).
-                    filter(t->t.endsWith("r")).count();
+        long result4 = Files.lines(Paths.get("src/main/java/day36lambda/LambdaTextFile.txt")).
+                map(t -> t.split(" ")).flatMap(Arrays::stream).
+                filter(t -> t.endsWith("r")).count();
 
         System.out.println(result4);
 //2. yol tavsiye edilmez
-     int result5= Files.lines(Paths.get("src/main/java/day36lambda/LambdaTextFile.txt")).
-                map(t->t.split(" ")).flatMap(Arrays::stream).
-                filter(t->t.endsWith("r")).collect(Collectors.toList()).size();
+        int result5 = Files.lines(Paths.get("src/main/java/day36lambda/LambdaTextFile.txt")).
+                map(t -> t.split(" ")).flatMap(Arrays::stream).
+                filter(t -> t.endsWith("r")).collect(Collectors.toList()).size();
 
         System.out.println(result5);
 
-}}
+    }
+}
