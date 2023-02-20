@@ -32,7 +32,7 @@ public class AppointmentApp {
     public static void start() {
 
             //1-menü oluştur
-            //2-appoinment classı oluştur
+            //2-appointment classı oluştur
             Scanner inp=new Scanner(System.in);
             AppointmentService service=new AppointmentService();
             int select;

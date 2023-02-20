@@ -1,4 +1,4 @@
-package ssg01;
+package Lambdapractice;
 
 import java.util.stream.IntStream;
 

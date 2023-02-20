@@ -1,4 +1,6 @@
-package ssg01;
+package Lambdapractice;
+
+import Lambdapractice.Apartman;
 
 import java.util.ArrayList;
 import java.util.Arrays;

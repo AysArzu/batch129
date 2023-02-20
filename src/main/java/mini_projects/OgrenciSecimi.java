@@ -26,8 +26,11 @@ Proje: Spor kursu için seçilecek öğrencileri belirleyen
         String[] gender = new String[numOfStudent];
         double[] weight = new double[numOfStudent];
         double[] height = new double[numOfStudent];
-        boolean isSuccess = true;
+        boolean isSuccess = true;//cinsiyetini kontrol etmek icin yaptik. dogruysa devam ettik yanlissa basa yolladik
         do {
+            //surekli tekrarlayacagi icin do-while icine her seferinde kayit yapacagi icin  for loop'a koyduk
+
+
             isSuccess = true;
             for (int i = 0; i < numOfStudent; i++) {
                 inp.nextLine();
@@ -39,32 +42,34 @@ Proje: Spor kursu için seçilecek öğrencileri belirleyen
 
                 if (gen.equalsIgnoreCase("K") || gen.equalsIgnoreCase("E")) {
                     gender[i] = gen;
-                } else{
+                } else {
                     System.out.println("Hatali giris");
-                isSuccess=false;
-                break;}
+                    isSuccess = false;
+                    break;
+                }
                 System.out.println("Ogrencinin boyunu giriniz");
-                height[i]=inp.nextDouble();
+                height[i] = inp.nextDouble();
 
                 System.out.println("Ogrencinin kilosunu giriniz");
-                weight[i]=inp.nextDouble();
+                weight[i] = inp.nextDouble();
             }
 
-        } while (!isSuccess);
+        } while (!isSuccess);//false iken devam edecek
         ///kisi listeyi doldurdu. simdi kimler kayit olabilir ona bakacagiz!!!
-int counter=0;
+        int counter = 0;
         System.out.println("Kursa secilen ogrenciler: ");
-        for (int i=0;i<numOfStudent;i++){
-            if(gender[i].equals("K")&&height[i]>=150&&weight[i]>=50&&weight[i]<=70){
-                System.out.println("Isim: "+students[i]+ " Cinsiyet: "+gender[i]+ " boy: "+height[i]+
-                        " Kilo: "+weight[i]+ ". Sisteme kaydi basari ile tamamlanmistir");
+        for (int i = 0; i < numOfStudent; i++) {
+            if (gender[i].equals("K") && height[i] >= 150 && weight[i] >= 50 && weight[i] <= 70) {
+                System.out.println("Isim: " + students[i] + " Cinsiyet: " + gender[i] + " boy: " + height[i] +
+                        " Kilo: " + weight[i] + ". Sisteme kaydi basari ile tamamlanmistir");
                 counter++;
             } else if (gender[i].equals("E") && height[i] >= 160 && weight[i] >= 70 && weight[i] <= 90) {
-                System.out.println("Isim: "+students[i]+ "  Cinsiyet: "+gender[i]+ "  boy: "+height[i]+
-                        "  Kilo: "+weight[i]+ ". Sisteme kaydi basari ile tamamlanmistir");
+                System.out.println("Isim: " + students[i] + "  Cinsiyet: " + gender[i] + "  boy: " + height[i] +
+                        "  Kilo: " + weight[i] + ". Sisteme kaydi basari ile tamamlanmistir");
                 counter++;
             }
-        }if(counter==0){
+        }
+        if (counter == 0) {
             System.out.println("sisteme gerekli  kayit kosullarini hicbir ogrenci saglayamamistir");
         }
     }

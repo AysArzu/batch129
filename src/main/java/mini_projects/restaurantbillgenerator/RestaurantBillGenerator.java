@@ -36,7 +36,7 @@ public class RestaurantBillGenerator {
     public static void start() {
         Scanner inp = new Scanner(System.in);
         OrderService orderService = new OrderService();
-        System.out.println("Merhaba");
+        System.out.println("Merhaba.alisveris yapmak istediginiz birimi giriniz");
         System.out.println("1-Restaurant");
         System.out.println("2-Cafe");
         int option = inp.nextInt();
@@ -49,7 +49,7 @@ public class RestaurantBillGenerator {
             dishService.fillDishList();
             getSelectionMenu(dishService, orderService);
         }
-        System.out.println("Iyi gunler...");
+
 
     }
 
@@ -94,7 +94,18 @@ public class RestaurantBillGenerator {
             }
 
         }
-        System.out.println("Iyi gunler dileriz");
+       slowPrint("Iyi gunler dileriz",45);
 
     }
+    public static void slowPrint(String text, int delay) {
+        for (char c : text.toCharArray()) {
+            System.out.print(c);
+            try {
+                Thread.sleep(delay);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
 }

@@ -4,16 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4af5945d-de09-4c8e-8c8d-1bd7f601bb0b" name="Changes" comment="02.18">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/OgrenciSecimi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ssg01/Apartman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ssg01/Lambda03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ssg01/Lambda04.java" afterDir="false" />
+    <list default="true" id="4af5945d-de09-4c8e-8c8d-1bd7f601bb0b" name="Changes" comment="02.19">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ssg01/telefon/ForDongusuIleOgrenciKaydi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day36lambda/Lambda02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day36lambda/Lambda02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/minibookstore/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/minibookstore/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/minibookstore/MiniBookStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/minibookstore/MiniBookStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/minibookstore/NotebookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/minibookstore/NotebookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lambda01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lambdapractice/Lambda01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lambda02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lambdapractice/Lambda02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/Dummy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/Dummy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/OgrenciSecimi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/OgrenciSecimi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/appointmentapp/AppointmentApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/appointmentapp/AppointmentApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/restaurantbillgenerator/RestaurantBillGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/restaurantbillgenerator/RestaurantBillGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ssg01/Apartman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lambdapractice/Apartman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ssg01/Lambda03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lambdapractice/Lambda03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ssg01/Lambda04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lambdapractice/Lambda04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ssg01/telefon/I01.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,13 +81,26 @@
       <recent name="day24accessmodifiersinheritance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lambda04">
-    <configuration name="Lambda03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ssg01.Lambda03" />
+  <component name="RunManager" selected="Application.RestaurantBillGenerator">
+    <configuration name="Dummy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mini_projects.Dummy" />
       <module name="BATCH129" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ssg01.*" />
+          <option name="PATTERN" value="mini_projects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForDongusuIleOgrenciKaydi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ssg01.telefon.ForDongusuIleOgrenciKaydi" />
+      <module name="BATCH129" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ssg01.telefon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,24 +109,11 @@
       </method>
     </configuration>
     <configuration name="Lambda04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ssg01.Lambda04" />
+      <option name="MAIN_CLASS_NAME" value="Lambdapractice.Lambda04" />
       <module name="BATCH129" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ssg01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MiniBookStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mini_projects.minibookstore.MiniBookStore" />
-      <module name="BATCH129" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mini_projects.minibookstore.*" />
+          <option name="PATTERN" value="Lambdapractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lambda04" />
-        <item itemvalue="Application.Lambda03" />
-        <item itemvalue="Application.OgrenciSecimi" />
-        <item itemvalue="Application.MiniBookStore" />
         <item itemvalue="Application.RestaurantBillGenerator" />
+        <item itemvalue="Application.Dummy" />
+        <item itemvalue="Application.OgrenciSecimi" />
+        <item itemvalue="Application.ForDongusuIleOgrenciKaydi" />
+        <item itemvalue="Application.Lambda04" />
       </list>
     </recent_temporary>
   </component>
@@ -394,7 +397,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676669642084</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="02.19">
+      <created>1676756773514</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1676756773514</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -409,7 +419,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="first commit" />
     <MESSAGE value="first" />
     <MESSAGE value="second" />
     <MESSAGE value="1-27" />
@@ -434,6 +443,7 @@
     <MESSAGE value="02.16" />
     <MESSAGE value="02.17" />
     <MESSAGE value="02.18" />
-    <option name="LAST_COMMIT_MESSAGE" value="02.18" />
+    <MESSAGE value="02.19" />
+    <option name="LAST_COMMIT_MESSAGE" value="02.19" />
   </component>
 </project>
