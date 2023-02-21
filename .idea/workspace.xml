@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4af5945d-de09-4c8e-8c8d-1bd7f601bb0b" name="Changes" comment="02.19">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ssg01/telefon/ForDongusuIleOgrenciKaydi.java" afterDir="false" />
+    <list default="true" id="4af5945d-de09-4c8e-8c8d-1bd7f601bb0b" name="Changes" comment="02.20">
+      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/Login2/Kullanici.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/Login2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/Login2/SErvice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lambda01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lambdapractice/Lambda01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lambda02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lambdapractice/Lambda02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/Dummy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/Dummy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/OgrenciSecimi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/OgrenciSecimi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/appointmentapp/AppointmentApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/appointmentapp/AppointmentApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/restaurantbillgenerator/RestaurantBillGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/restaurantbillgenerator/RestaurantBillGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ssg01/Apartman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lambdapractice/Apartman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ssg01/Lambda03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lambdapractice/Lambda03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ssg01/Lambda04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lambdapractice/Lambda04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ssg01/telefon/I01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/repeatAracSigortaApp/Arac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/AracSigortaApp/Arac.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/repeatAracSigortaApp/AracSigortaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/AracSigortaApp/AracSigortaApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -404,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676756773514</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="02.20">
+      <created>1676922443982</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1676922443982</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -419,7 +420,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="first" />
     <MESSAGE value="second" />
     <MESSAGE value="1-27" />
     <MESSAGE value="1-29" />
@@ -444,6 +444,7 @@
     <MESSAGE value="02.17" />
     <MESSAGE value="02.18" />
     <MESSAGE value="02.19" />
-    <option name="LAST_COMMIT_MESSAGE" value="02.19" />
+    <MESSAGE value="02.20" />
+    <option name="LAST_COMMIT_MESSAGE" value="02.20" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-package mini_projects.repeatAracSigortaApp;
+package mini_projects.AracSigortaApp;
 
 import java.util.Scanner;
 
@@ -6,10 +6,10 @@ public class Arac {
 // atomik hale getirip kodlari kuculttuk.
     // tipi,  prim
 
-    public String type;//filed / feature / ozellik
+    public String type;//field / feature / ozellik
     public int prim;
 
-    public void countPrim(int term) {
+    public void countPrim(int term) {// kullanicidan gelecegi icin parametre olarak yazdik
         switch (this.type) {
             case "otomobil":
                 this.prim = term == 1 ? 2000 : 2500;

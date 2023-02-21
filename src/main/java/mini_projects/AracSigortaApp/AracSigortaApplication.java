@@ -1,4 +1,4 @@
-package mini_projects.repeatAracSigortaApp;
+package mini_projects.AracSigortaApp;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -31,9 +31,9 @@ Proje: Araç Sigorta Prim Hesaplama
         do {
             isFail = false;// devam edebilmesi icin false olmali yoksa sonsuz dongu olurdu.
             System.out.println("---Zorunlu Sigorta Pirimi Hesaplama----");
-            System.out.println("Tarifew donemini seciniz");
+            System.out.println("Tarife donemini seciniz");
             System.out.println("1.Haziran 2022");
-            System.out.println("1.Aralik 2022");
+            System.out.println("2.Aralik 2022");
             //exception handle etme
             int term = 0;
             try {
@@ -52,14 +52,15 @@ Proje: Araç Sigorta Prim Hesaplama
                 String select = inp.next();
                 arac.type = select;
                 arac.countPrim(term);
-                if (arac.prim > 0) {
+                if (arac.prim > 0) {//prim sifirdan buyukse yazdiracagiz
 
                     System.out.println("Hesaplama islemi basariyla tamamlandi");
                     System.out.println("arac tipi : " + arac.type);
                     System.out.println("Tarife donemi : " + termName);
                     System.out.println("Aracinizin ilgili donem sigorta primi : " + arac.prim);
                     isFail = isAgain(inp);
-                } else {
+                }
+                else {
                     System.out.println("Hesaplama basarisiz ,Tekrar deneyiniz");
                     isFail=isAgain(inp);
                 }
