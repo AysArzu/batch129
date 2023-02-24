@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4af5945d-de09-4c8e-8c8d-1bd7f601bb0b" name="Changes" comment="02.20">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/Login2/Kullanici.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/Login2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mini_projects/Login2/SErvice.java" afterDir="false" />
+    <list default="true" id="4af5945d-de09-4c8e-8c8d-1bd7f601bb0b" name="Changes" comment="02.21">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/repeatAracSigortaApp/Arac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/AracSigortaApp/Arac.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/repeatAracSigortaApp/AracSigortaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/AracSigortaApp/AracSigortaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/Dummy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/Dummy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/Login2/Kullanici.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/Login2/Kullanici.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/Login2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/Login2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mini_projects/Login2/SErvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mini_projects/Login2/Service.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -75,7 +74,7 @@
       <recent name="day24accessmodifiersinheritance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RestaurantBillGenerator">
+  <component name="RunManager" selected="Application.Dummy">
     <configuration name="Dummy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mini_projects.Dummy" />
       <module name="BATCH129" />
@@ -143,8 +142,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RestaurantBillGenerator" />
         <item itemvalue="Application.Dummy" />
+        <item itemvalue="Application.RestaurantBillGenerator" />
         <item itemvalue="Application.OgrenciSecimi" />
         <item itemvalue="Application.ForDongusuIleOgrenciKaydi" />
         <item itemvalue="Application.Lambda04" />
@@ -405,7 +404,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676922443982</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="02.21">
+      <created>1677004686923</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1677004686924</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -420,7 +426,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="second" />
     <MESSAGE value="1-27" />
     <MESSAGE value="1-29" />
     <MESSAGE value="1-22" />
@@ -445,6 +450,7 @@
     <MESSAGE value="02.18" />
     <MESSAGE value="02.19" />
     <MESSAGE value="02.20" />
-    <option name="LAST_COMMIT_MESSAGE" value="02.20" />
+    <MESSAGE value="02.21" />
+    <option name="LAST_COMMIT_MESSAGE" value="02.21" />
   </component>
 </project>
